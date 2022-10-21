@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bird_list>
+	<!--https://nzbirdsonline.org.nz/species/subantarctic-skua  -->
+	<bird>
+		<english_name>Subantarctic skua</english_name>
+		<maori_name>Hākoakoa</maori_name>
+		<scientific_name>Stercorarius antarcticus</scientific_name>
+		<conservation_status>Nationally Vulnerable</conservation_status>
+		<classification>Seabird</classification>
+		<other_names> 
+			brown skua, southern skua, southern great skua, hākoakoa, hakoakoa
+		</other_names>
+		<length>64 cm</length>
+		<weight>1.5 - 2.2 kg</weight>
+		<lower_length>64</lower_length>
+		<length_unit>cm</length_unit>
+		<lower_weight>1500</lower_weight>
+		<weight_unit>g</weight_unit>
+		<upper_length>64</upper_length>
+		<upper_weight>2200</upper_weight>
+		<bird_id>0</bird_id>
+		<information>
+			The subantarctic skua is, alongside giant petrels, a top avian predator in the subantarctic and other southern New Zealand islands. In contrast to the gulls, it is a truly oceanic seabird. Not regularly seen from mainland New Zealand, they are distinctive heavy dark birds of offshore waters, strikingly larger and more powerful than southern black-backed gulls.
+		</information>
+		<identification>The subantarctic skua is a large, heavy-set brown gull-like bird with 1.5 metre broad pointed wings and a distinctive white outerwing patch. It is a powerful flier, which enables it to overtake many petrels and some albatross. The sexes are alike, although females are substantially larger.
+
+		Voice: frequent territorial displays include ‘Viking helmet’ raising of wings accompanied by distinctive raw descending ‘ah-ah-ah’ long-call. Quack-like anxiety calls on ground in territory. Alarm call, which may start on ground and continue during repeat high-speed stoop attacks on intruder (skua, human, elephant seal) ear-splitting scream. Alarm call, often initiated by incubating bird, triggers alarm calls (and attack) by partner, or all birds in trios or groups. Otherwise quiet in flight and at sea.
+
+		Similar species: South Polar skuas (which migrates through New Zealand region) are slightly smaller and usually paler, but separation of the two species is difficult with dark morph South Polar skuas. Juvenile southern black-backed gulls are slighter, have narrower wings lacking a white outerwing patch, and are less powerful flyers. Pomarine and Arctic skuas are much smaller birds, with narrower wings and more elongated bodies and tails, compared to the large, chunky-looking subantarctic skua.</identification>
+		<image>skua.jpg</image>
+		<image_220>skua-220.jpg</image_220>
+		<alt>Subantarctic skua | Hākoakoa. Adult displaying. North East Island, Snares Islands, November 1987. Image © Colin Miskelly by Colin Miskelly</alt>
+		<source>https://nzbirdsonline.org.nz/species/subantarctic-skua</source>
+	</bird>
+
+	<!--https://nzbirdsonline.org.nz/species/south-island-takahe  -->
+	<bird>
+		<english_name>South Island takahe</english_name>
+		<maori_name>Takahē</maori_name>
+		<scientific_name>Porphyrio hochstetteri</scientific_name>
+		<conservation_status>Nationally Vulnerable</conservation_status>
+		<classification>Flightless</classification>
+		<other_names>notornis</other_names>
+		<length>50 cm</length>
+		<weight>2 - 3.5 kg</weight>
+		<lower_length>50</lower_length>
+		<length_unit>cm</length_unit>
+		<lower_weight>2000</lower_weight>
+		<weight_unit>g</weight_unit>
+		<upper_length>50</upper_length>
+		<upper_weight>3500</upper_weight>
+		<bird_id>1</bird_id>
+		<information>
+			The South Island takahē is a rare relict of the flightless, vegetarian bird fauna which once ranged New Zealand. Four specimens were collected from Fiordland between 1849 and 1898, after which takahē were considered to be extinct until famously rediscovered in the Murchison Mountains, west of Lake Te Anau, in 1948. Until the 1980s, takahē were confined in the wild to the Murchison Mountains. They have since been translocated to seven islands and several mainland sites, making them more accessible to many New Zealanders. Conservation work by the Department Of Conservation and community groups aims to prevent extinction and restore takahē to sites throughout their original range. The success of DOC's Takahē Recovery Programme relies heavily on a partnership with Mitre 10 who through Mitre 10 Takahē Rescue is helping to ensure the long-term survival of this treasured species.
+		</information>
+		<identification>The South Island takahē is the largest living rail in the world. An enormous gallinule, it has deep blue on the head, neck and underparts, olive green on the wings and back, and a white undertail, The huge conical bill is bright red, paler towards the tip, and extends on to the forehead as a red frontal shield. The stout legs are red, with orange underneath. Juveniles are duller with a blackish-orange beak and dull pink-brown legs.
+
+		Voice: the main calls of takahē are a loud shriek, a quiet hooting contact call, and a muted boom indicating alarm.
+
+		Similar species: the extinct North Island takahē was taller and more slender. Pukeko can fly, and are smaller and more slender, with relatively longer legs, and black on the wings and back.</identification>
+		<image>takahe.jpg</image>
+		<image_220>takahe-220.jpg</image_220>
+		<alt>South Island takahe |Takahē. Adult. Tawharanui Regional Park, February 2018. Image © Oscar Thomas by Oscar Thomas</alt>
+		<source>https://nzbirdsonline.org.nz/species/south-island-takahe</source>
+	</bird>
+
+	<!--https://nzbirdsonline.org.nz/species/kakapo -->
+	<bird>
+		<english_name>Kakapo</english_name>
+		<maori_name>Kākāpō</maori_name>
+		<scientific_name>Strigops habroptila</scientific_name>
+		<conservation_status>Nationally Critical</conservation_status>
+		<classification>Flightless</classification>
+		<other_names>owl-parrot, tarepo, tarapo, night parrot</other_names>
+		<length>58 - 64 cm</length>
+		<weight>2 - 4 kg (males), 1 - 2.5 kg (females)</weight>
+		<lower_length>58</lower_length>
+		<length_unit>cm</length_unit>
+		<lower_weight>2000</lower_weight>
+		<weight_unit>g</weight_unit>
+		<upper_length>64</upper_length>
+		<upper_weight>4000</upper_weight>
+		<bird_id>2</bird_id>
+		<information>
+			The kakapo is a large, nocturnal, flightless, lek-breeding parrot – a real oddity. It is also critically endangered, and the focus of considerable conservation attention. Before humans arrived it was common throughout New Zealand’s forests, but predation by introduced mammals brought it to the brink of extinction - a low point of about 50 birds only in the mid 1990s. The transfer of the whole population to predator-free islands and intensive intervention in every stage of its life has led to a steady increase in numbers. Kakapo have no close relatives.
+		</information>
+		<identification>A large flightless forest-dwelling parrot, with a pale owl-like face. Kakapo are moss green mottled with yellow and black above, and similar but more yellow below. The bill is grey, and the legs and feet grey with pale soles.
+
+		Voice: males make a deep booming call (“booming”) and a loud wheezing call (“chinging”) to attract mates to their leks. Both sexes make a loud high pitched skraak call (“skraaking”). 
+
+		Similar species: kaka and kea are the only species with which kakapo might be confused, but their moss green colour, large size, flightlessness and nocturnal habits make them easy to distinguish. It is also very unlikely that any kakapo exist other than at a few managed sites, and so the chances of misidentification are very low.</identification>
+		<image>kakapo.jpg</image>
+		<image_220>kakapo-220.jpg</image_220>
+		<alt>Kākāpō | Kakapo. Adult male (Sirocco). Maud Island. Image © Dylan van Winkel by Dylan van Winkel</alt>
+		<source>https://nzbirdsonline.org.nz/species/kakapo</source>
+	</bird>
+
+	<!--https://nzbirdsonline.org.nz/species/banded-dotterel -->
+	<bird>
+		<english_name>Banded dotterel</english_name>
+		<maori_name>Pohowera</maori_name>
+		<scientific_name>Charadrius bicinctus</scientific_name>
+		<conservation_status>Declining</conservation_status>
+		<classification>Land</classification>
+		<other_names>double-banded plover, tūturiwhatu, tuturiwhatu</other_names>
+		<length>20 cm</length>
+		<weight>60 g</weight>
+		<lower_length>20</lower_length>
+		<length_unit>cm</length_unit>
+		<lower_weight>60</lower_weight>
+		<weight_unit>g</weight_unit>
+		<upper_length>20</upper_length>
+		<upper_weight>60</upper_weight>
+		<bird_id>3</bird_id>
+		<information>
+			The banded dotterel is the most common small plover of New Zealand seashores, estuaries and riverbeds. Although their plumage varies seasonally, they are readily identified by their brown upperparts and complete or partial chestnut breast band, the latter being quite striking in breeding plumage. Like other typical plovers, the body is held erect and they have a characteristic run-stop-peck-run foraging behaviour in their pursuit of small invertebrates Inland-breeding birds undertake a post-breeding migration to estuaries and other coastal wetlands the lower_length of New Zealand and many also travel to Tasmania and south-east mainland Australia in an unusual east-west migration.
+		</information>
+		<identification>The banded dotterel is a small, compact plover, plain brown above and mainly white below. In breeding plumage from about June to December the male has a broad chestnut breast band and a narrow black neck band above this. Both of these bands are present but duller in the female. Juveniles may appear greyer than adults, often with a mottled appearance due to pale narrow edging to their dorsal feathers. The larger Auckland Island subspecies has longer legs, and has the breast bands duller and flecked with white.
+
+		Voice: flight calls are an unobtrusive chip call sometimes repeated, and sounding like continuous chattering when a sizeable flock is flying by. Territorial birds are much more vocal giving a “chee-aree-aree” call, with males often puffing out the breast feathers at the same time.
+
+		Similar species: banded dotterels sometimes associate with the similar-sized wrybill which is plain grey above, and New Zealand dotterels which are larger and greyer plovers. A rare vagrant to New Zealand, the lesser sand plover, is easily confused with the banded dotterel when not in breeding plumage. It is a greyer above (cf. brown on banded dotterel) and is whiter on the face, with a white forehead and eye-brow contrasting with a dark eyepatch. Dark shoulder tabs project onto the upper breast, and may join as a dark breast band.</identification>
+		<image>dotterel.jpg</image>
+		<image_220>dotterel-220.jpg</image_220>
+		<alt>Banded dotterel | Pohowera. Adult in breeding plumage. Napier, Hawke's Bay, December 2009. Image © Neil Fitzgerald by Neil Fitzgerald www.neilfitzgeraldphoto.co.nz</alt>
+		<source>https://nzbirdsonline.org.nz/species/banded-dotterel</source>
+		<alt>Banded dotterel | Pohowera. Adult in breeding plumage. Napier, Hawke's Bay, December 2009. Image © Neil Fitzgerald by Neil Fitzgerald www.neilfitzgeraldphoto.co.nz</alt>
+		<source>https://nzbirdsonline.org.nz/species/banded-dotterel</source>
+	</bird>
+
+	<!--https://nzbirdsonline.org.nz/species/pied-shag  -->
+	<bird>
+		<english_name>Pied shag</english_name>
+		<maori_name>Kāruhiruhi</maori_name>
+		<scientific_name>Phalacrocorax varius</scientific_name>
+		<conservation_status>Recovering</conservation_status>
+		<classification>Seabird</classification>
+		<other_names>
+			pied cormorant, karuhiruhi, kawau, yellow-faced cormorant , large pied shag
+		</other_names>
+		<length>65 - 85 cm</length>
+		<weight>1.3 - 2.1 kg</weight>
+		<lower_length>65</lower_length>
+		<length_unit>cm</length_unit>
+		<lower_weight>1300</lower_weight>
+		<weight_unit>g</weight_unit>
+		<upper_length>85</upper_length>
+		<upper_weight>2100</upper_weight>
+		<bird_id>4</bird_id>
+		<information>
+			This large black-and-white shag is often seen individually or in small groups roosting on rocky headlands, trees or artificial structures. In regions where it occurs, it can usually be readily seen about harbours and estuaries associated with cities or towns. Unlike most other shag species, the pied shag is reasonably confiding, allowing close approach when roosting or nesting in trees. It generally forages alone, but occasionally in small groups when prey is abundant.
+		</information>
+		<identification>Pied shags mainly inhabit coastal habitats about much of New Zealand. Adults have the crown, back of the neck, mantle, rump, wings, thighs and tail black, although on close inspection the upper wing coverts are grey-black with a thin black border. The face, throat, sides of neck and underparts are white. The long, hooked beak is grey, the iris is green, and legs and feet black. On breeding adults, the skin in front of the eye is yellow, at the base of beak is pink or pink-red, and the eye-ring is blue. Non-breeding adults have paler skin colours than breeders. The upperparts of juveniles and immatures have dark and pale brown tones. Their underparts are white but with varying amounts of brown mottling, from almost entirely brown to little at all. The skin in front of eye is pale yellow, at the base of the beak is grey - pale pink, and eye-ring is grey. 
+
+		Voice: generally silent away from nesting colonies, but quite vocal at colonies during pair formation, nest building and when one of a pair returns to nest during incubation. Females give wheezy haa calls, while males give a variety of loud calls, that may be repeated several times, and that sound like aark, kerlick and whee-eh-eh-eh.
+
+		Similar species: the pied morph of the little shag is much smaller and has a short stubby yellow beak. Both the king shag and pied morph of the Stewart Island shag have black heads with white throats, patches of white feathers on the upper wings, and pink feet. Juveniles and immatures of black shag can be difficult to distinguish from the similar-sized juveniles and immatures of pied shag. Both can have underparts from nearly all brown to nearly all white. Juvenile black shags have dark heads and upper throat, and have extensive yellowish facial skin about base of the beak, whereas the yellow is only in front of the eye on the pied shag.</identification>
+		<image>shag.png</image>
+		<image_220>shag-220.png</image_220>
+		<alt>Pied shag | Kāruhiruhi. Adult. Northland, January 2008. Image © Peter Reese by Peter Reese</alt>
+		<source>https://nzbirdsonline.org.nz/species/pied-shag</source>
+	</bird>
+	
+	<!--https://nzbirdsonline.org.nz/species/chestnut-breasted-shelduck  -->
+	<bird>
+		<english_name>Chestnut-breasted shelduck</english_name>
+		<maori_name></maori_name>
+		<scientific_name>Tadorna tadornoides</scientific_name>
+		<conservation_status>Vagrant</conservation_status>
+		<classification>Wetland</classification>
+		<other_names>
+			mountain duck, Australian shelduck, chestnut-coloured shelduck, chestnut shelduck, mountain shelduck, grunter, chestnut breasted shelduck, chestnutbreasted shelduck
+		</other_names>
+		<length>56 - 72 cm</length>
+		<weight>1.3 - 1.6 kg</weight>
+		<lower_length>56</lower_length>
+		<length_unit>cm</length_unit>
+		<lower_weight>1300</lower_weight>
+		<weight_unit>g</weight_unit>
+		<upper_length>72</upper_length>
+		<upper_weight>1600</upper_weight>
+		<bird_id>5</bird_id>
+		<information>
+			The chestnut-breasted shelduck is a frequent visitor to New Zealand. It is closely related to the endemic paradise shelduck with which it shares many plumage features. Chestnut-breasted shelducks often fly several hundred kilometres between breeding sites (used in winter and spring), to moulting sites, where they congregate in large numbers. Although apparently faithful to its nesting locations, the place where moult occurs can vary from year to year. Until the 1970s, it was known in Australia as the mountain duck, but is now most commonly referred to there as the Australian shelduck.
+		</information>
+		<identification>The chestnut-breasted shelduck is a large, mostly dark duck with a striking chestnut breast, white neck ring, and chestnut and green speculum. Females have a white eye-ring, and white at the base of the bill. The chestnut breast is darker on the female. The white neck ring of the male is often more sharply demarcated than that of the female. When seen together in pairs, the smaller size of the female is apparent. In flight, the white underwing and forewing are conspicuous, with the same pattern as the paradise shelduck.
+
+		Voice: a series of honks and grunts, similar to paradise shelduck, often very vocal, loud and harsh. The female’s call is higher in pitch than the male.
+
+		Similar species: the chestnut-breasted shelduck is most similar to a male paradise shelduck, from which it can be distinguished by the bright and conspicuous chestnut breast and white neck ring, and in the case of female chestnut-breasted shelduck, the white eye-ring and white at base of bill. Note also the dark undertail coverts (these are chestnut in paradise shelducks).</identification>
+		<image>shelduck.jpg</image>
+		<image_220>shelduck-220.jpg</image_220>
+		<alt>Chestnut-breasted shelduck. Adult male. Herdsman Lake, Perth, Western Australia, September 2019. Image © Diana Womersley 2020 birdlifephotography.org.au by Diana Womersley</alt>
+		<source>https://nzbirdsonline.org.nz/species/chestnut-breasted-shelduck</source>
+	</bird>
+
+	<!--https://nzbirdsonline.org.nz/species/australian-white-eyed-duck  -->
+	<bird>
+		<english_name>Australian white-eyed duck</english_name>
+		<maori_name>Karakahia</maori_name>
+		<scientific_name>Aythya australis</scientific_name>
+		<conservation_status>Vagrant</conservation_status>
+		<classification>Wetland</classification>
+		<other_names>
+			hardhead, Australian white eyed duck, Australian whiteeyed duck
+		</other_names>
+		<length>45 - 60 cm</length>
+		<weight>700 - 800 g</weight>
+		<lower_length>45</lower_length>
+		<length_unit>cm</length_unit>
+		<lower_weight>700</lower_weight>
+		<weight_unit>g</weight_unit>
+		<upper_length>60</upper_length>
+		<upper_weight>800</upper_weight>
+		<bird_id>6</bird_id>
+		<information>
+			The Australian white-eyed duck is now considered a vagrant in New Zealand, but it apparently had a breeding population here until the late 1800s. Maori were aware of it, giving it the name karakahia. It now breeds only in Australia, but regularly ranges to the north, including to Indonesia (one breeding record), New Guinea, Vanuatu, New Caledonia and Norfolk Island. It is Australia's only true diving duck and exhibits similar behaviour to the New Zealand scaup.
+		</information>
+		<identification>Both male and female Australian white-eyed ducks are uniform chocolate-brown with rufous flanks, an irregular white patch on the belly and a white undertail. The male has a distinctive white eye and a prominent white bar across the upper mandible of its bill. This white band is more subdued in the female, which has brown eyes. In flight, the white primary and secondary wing feathers produce a similar broad white wing trailing edge to the wing as seen in New Zealand scaup, but extending right to the body. Compared to a mallard, the Australian white-eyed duck is small with a rotund body that is adapted for deep diving. The bill is comparatively short with a black hook at the tip of the upper mandible.
+
+		Voice: generally silent, but when breeding the male has a wheezy whistle, and the female a harsh rattle.
+
+		Similar species: New Zealand scaup are of similar structure and behaviour but are smaller, darker and more compact, with dark undertail coverts. Scaup lack a pale saddle on the bill, and males have a yellow iris. In flight, the white wing bar on scaup stops short of the body.</identification>
+		<image>white_eyed_duck.jpg</image>
+		<image_220>white_eyed_duck-220.jpg</image_220>
+		<alt>Australian white-eyed duck | Karakahia. Adult male. Mill Park Lakes, South Morang, Victoria, September 2014. Image © Ian Wilson 2014 birdlifephotography.org.au by Ian Wilson</alt>
+		<source>Australian white-eyed duck | Karakahia. Adult male. Mill Park Lakes, South Morang, Victoria, September 2014. Image © Ian Wilson 2014 birdlifephotography.org.au by Ian Wilson</source>
+	</bird>
+
+	<!--https://nzbirdsonline.org.nz/species/sharp-tailed-sandpiper  -->
+	<bird>
+		<english_name>Sharp-tailed sandpiper</english_name>
+		<maori_name>Kohutapu</maori_name>
+		<scientific_name>Calidris acuminata</scientific_name>
+		<conservation_status>Migrant</conservation_status>
+		<classification>Seabird</classification>
+		<other_names>sharp tailed sandpiper, sharptailed sandpiper</other_names>
+		<length>18 - 22 cm</length>
+		<weight>65 g</weight>
+		<lower_length>18</lower_length>
+		<length_unit>cm</length_unit>
+		<lower_weight>65</lower_weight>
+		<weight_unit>g</weight_unit>
+		<upper_length>22</upper_length>
+		<upper_weight>65</upper_weight>
+		<bird_id>7</bird_id>
+		<information>
+			The Calidris sandpipers are a bewildering group of small to medium-sized waders, many of which are very similar to each other. Almost all are long-distance migrants, and so are capable of crossing the vast expanses of ocean required to get to New Zealand. Four members of the genus visit New Zealand often enough to be considered regular migrants, but another 12 species have been identified in New Zealand on at least one occasion. The sharp-tailed sandpiper is one of the regulars, along with lesser knot, red-necked stint and curlew sandpiper. Until the 1990s, up to 200 sharp-tailed sandpipers visited New Zealand each summer, and could be found in flocks of 5-10 birds at favoured estuaries and wetlands scattered throughout the country. Their numbers have since plummeted, and perhaps as few as 30 birds are now reaching New Zealand each year. Because New Zealand is on the edge of the sharp-tailed sandpiper range, it is unclear whether the large decline in the number of birds arriving here mirrors overall population trends, or whether it reflects a change in migration patterns, with a lower proportion of birds crossing the Tasman Sea. Both the common name and the scientific name (acuminata) refer to the individually sharply-pointed tail feathers, a feature only apparent if the bird is in the hand.
+		</information>
+		<identification>The sharp-tailed sandpiper is a smallish, speckled brown and white wader with straight, shortish dark bill and reddish cap to its head. It is midway in size between a lesser knot and a red-necked stint, being similar in size to a banded dotterel, but slimmer and more elegant. A prominent white eyebrow extends well back above the eye, and a narrow white eye-ring is apparent in good views. The feathers on the back and wings are rich brown or chestnut with pale borders, though can be much greyer than this. Brownish speckles on the breast feathers merge into the pale belly in a diffuse border (cf. a sharp border in the similar pectoral sandpiper). Breeding plumage is similar, but with prominent dark chevrons on the otherwise pale flanks. The bill is dark, grading into pale brown at the base of the lower mandible; the legs are yellowish. Males are 15% larger than females. Juveniles are more brightly coloured, with the rufous cap, lores and ear coverts strongly contrasting with the white eyebrow, an orange-buff wash to the breast, and with back feathers fringed with bright chestnut, white and buff. The steady gait of sharp-tailed sandpipers, pecking and probing, is quite different to the run-stop-peck action of small plovers such as banded dotterel.                                              
+
+		Voice: a soft trreep.
+
+		Similar species: the pectoral sandpiper (which often associates with sharp-tailed sandpipers), has a sharp boundary between the dark speckling on the breast and white lower breast and belly. The pectoral sandpiper generally lacks the rufous cap of the sharp-tailed sandpiper, and has a more two-tone bill, yellowish at the base.</identification>
+		<image>sandpiper.jpg</image>
+		<image_220>sandpiper-220.jpg</image_220>
+		<alt>Sharp-tailed sandpiper | Kohutapu. Non-breeding adult. Miranda, January 2010. Image © Tony Whitehead by Tony Whitehead www.wildlight.co.nz</alt>
+		<source>https://nzbirdsonline.org.nz/species/sharp-tailed-sandpiper </source>
+	</bird>
+
+	<!--https://nzbirdsonline.org.nz/species/little-tern  -->
+	<bird>
+		<english_name>Little tern</english_name>
+		<maori_name>Tara teo</maori_name>
+		<scientific_name>Sternula albifrons</scientific_name>
+		<conservation_status>Migrant</conservation_status>
+		<classification>Seabird</classification>
+		<other_names></other_names>
+		<length>25 cm</length>
+		<weight>50 g</weight>
+		<lower_length>25</lower_length>
+		<length_unit>cm</length_unit>
+		<lower_weight>50</lower_weight>
+		<weight_unit>g</weight_unit>
+		<upper_length>25</upper_length>
+		<upper_weight>50</upper_weight>
+		<bird_id>8</bird_id>
+		<information>
+			Although small numbers of little terns visit New Zealand every year, it took some time before they were recognised as being New Zealand birds. They are very similar to the now rare fairy tern, especially in the nondescript non-breeding and immature plumages most often seen in New Zealand. Even museum specimens were misidentified and over-looked. Careful observations by Ross McKenzie and Dick Sibson led to the presence of little terns being confirmed on the Miranda coast, Firth of Thames in the 1950s. By this time, the fairy tern had become one of New Zealand's rarest birds, and the little tern is now known to be the commonest small tern in the country over the summer. Further observations have shown that birds seen in New Zealand come from two different populations; most of them are northern hemisphere migrants that spend their non-breeding season in New Zealand but a few are from the population breeding in Australia and they can be recognised by having a moult cycle that is six months different.
+		</information>
+		<identification></identification>
+		<image>tern.jpg</image>
+		<image_220>tern-220.jpg</image_220>
+		<alt>Little tern | Tara teo. Non-breeding adult. Clive rivermouth, Hawke's Bay, October 2016. Image © Adam Clarke by Adam Clarke</alt>
+		<source>https://nzbirdsonline.org.nz/species/little-tern</source>
+	</bird>
+
+	<!--https://nzbirdsonline.org.nz/species/southern-giant-petrel  -->
+	<bird>
+		<english_name>Southern giant petrel</english_name>
+		<maori_name>Pāngurunguru</maori_name>
+		<scientific_name>Macronectes giganteus</scientific_name>
+		<conservation_status>Migrant</conservation_status>
+		<classification>Seabird</classification>
+		<other_names>
+			nelly, stinker, pangurunguru, giant fulmar, glutton, stinkpot, sea vulture
+		</other_names>
+		<length>80 -100 cm</length>
+		<weight>3.8 - 5 kg</weight>
+		<lower_length>80</lower_length>
+		<length_unit>cm</length_unit>
+		<lower_weight>3800</lower_weight>
+		<weight_unit>g</weight_unit>
+		<upper_length>100</upper_length>
+		<upper_weight>5000</upper_weight>
+		<bird_id>9</bird_id>
+		<information>
+			Giant petrels are large fulmarine petrels, the size of a mollymawk, with a large wingspan and huge bill. Although they resemble mollymawks and albatrosses, they are more closely related to five smaller fulmarine petrel species, including the Antarctic fulmar, Cape petrel and snow petrel. They have two large tube nostrils that are joined together on the top of the huge bill, in contrast to those of albatrosses which are smaller and separated, lying one on each side of the bill. Giant petrels' wings are shorter than mollymawks' and albatross', relative to body lower_length. There are two species of giant petrel, both with circumpolar distributions, and both of which occur in New Zealand waters. The southern giant petrel is the largest petrel species, reaching the size of a small albatross. They are aggressive and opportunistic, scavenging penguin, albatross, seal and whale carrion, and ship offal, and preying on penguin and albatross chicks and other seabirds up to the size of an adult albatross. They also take fish and squid from the sea surface.
+		</information>
+		<identification>The southern giant petrel is the largest of all the petrel species, reaching the size of a small albatross but with shorter, narrower wings, and a more humpbacked shape. Two colour forms: white morph (c.10%) and dark morph (c.90%). White morph birds are white, usually sparsely flecked with black on the body and wings, and with dark brown eyes. Adult dark morph birds have a mainly dark grey-brown body with an off-white head, neck and upper breast. The wings are mottled greyish-brown with pale feathers along the leading edge. Their eyes are pale grey to whitish. Both morphs have a huge yellowish-horn bill with a pale green tip, and grey-brown legs. The sexes are similar, though males are 20% heavier, with larger bills. Juveniles of the dark morph are sooty black with a yellowish bill, with their plumage becoming paler with age.
+
+		Voice: southern giant petrels make gutteral growling and whinnying calls during threat and courtship displays, snap their bills when threatened, and "clack" their bills during mating. They are noisy when feeding in flocks. Chicks make piping and quiet peep sounds.
+
+		Similar species: dark morph southern giant petrels are very similar to northern giant petrels, with the colour of the bill tip (red-brown in northern, pale green in southern) the only character that is reliable for all age groups, especially the blackish juveniles. In the New Zealand region, adult northern giant petrels have pale feathering confined to their face, whereas adult southern giant petrels have pale heads, necks and upper breasts, contrasting with remaining dark plumage to create a two-toned look. Northern giant petrels elsewhere (i.e. South Atlantic) can have pale plumage from bill to undertail, but without the distinctly two-toned look of adult dark morph southern giant petrels. Sooty and light-mantled sooty albatrosses are slimmer and longer-tailed than giant petrels, and have black bills.</identification>
+		<image>petrel.jpg</image>
+		<image_220>petrel-220.jpg</image_220>
+		<alt>Southern giant petrel | Pāngurunguru. Adult (dark morph) in flight. Drake Passage, February 2019. Image © Glenn Pure 2019 birdlifephotography.org.au by Glenn Pure</alt>
+		<source>https://nzbirdsonline.org.nz/species/southern-giant-petrel</source>
+	</bird>
+
+	<!--https://nzbirdsonline.org.nz/species/north-island-brown-kiwi  -->
+	<bird>
+		<english_name>North Island brown kiwi</english_name>
+		<maori_name>Kiwi-nui</maori_name>
+		<scientific_name>Apteryx mantelli</scientific_name>
+		<conservation_status>Not Threatened</conservation_status>
+		<classification>Flightless</classification>
+		<other_names></other_names>
+		<length>40 cm</length>
+		<weight>2 kg (male), 2.7 kg (female)</weight>
+		<lower_length>40</lower_length>
+		<length_unit>cm</length_unit>
+		<lower_weight>2000</lower_weight>
+		<weight_unit>g</weight_unit>
+		<upper_length>40</upper_length>
+		<upper_weight>2700</upper_weight>
+		<bird_id>10</bird_id>
+		<information>
+			The only kiwi in the wild in the North Island. Widespread in native forest and scrub, pine forests, rough farmland from sea level to 1400 m north of the Manawatu Gorge. Flightless, with tiny vestigial wings and no tail. Nocturnal, therefore more often heard than seen. Male gives a repeated high-pitched ascending whistle, female gives a deeper throaty cry. Dark brown, streaked lower_lengthways with reddish brown and black. Feather tips feel spiky. Long pale bill, short dark legs and toes, often with dark claws.
+		</information>
+		<identification>Large brown kiwi. Dark brown spiky feathers streaked with reddish brown and black, long pale bill, short dark legs, toes and claws.
+
+		Voice:  Male gives a high-pitched ascending whistle repeated 15-25 times, female gives a slower and lower pitched guttural cry repeated 10-20 times.
+
+		Similar species: weka have similar brown colours, but are smaller and have a short bill. The calls of weka are also similar, but have two-syllables and usually have fewer repetitions.</identification>
+		<image>north_brown_kiwi.jpg</image>
+		<image_220>north_brown_kiwi-220.jpg</image_220>
+		<alt>North Island brown kiwi | Kiwi-nui. Adult. Rotorua, March 1982. Image © Department of Conservation ( image ref: 10029431 ) by Rod Morris Department of Conservation Courtesy of Department of Conservation</alt>
+		<source>https://nzbirdsonline.org.nz/species/north-island-brown-kiwi</source>
+	</bird>
+
+	<!--https://nzbirdsonline.org.nz/species/southern-brown-kiwi -->
+	<bird>
+		<english_name>Southern brown kiwi</english_name>
+		<maori_name>Tokoeka</maori_name>
+		<scientific_name>Apteryx australis</scientific_name>
+		<conservation_status>Naturally Uncommon</conservation_status>
+		<classification>Flightless</classification>
+		<other_names></other_names>
+		<length>45 cm</length>
+		<weight>2.4 kg (male), 3.1 kg (female)</weight>
+		<lower_length>45</lower_length>
+		<length_unit>cm</length_unit>
+		<lower_weight>2400</lower_weight>
+		<weight_unit>g</weight_unit>
+		<upper_length>45</upper_length>
+		<upper_weight>3100</upper_weight>
+		<bird_id>11</bird_id>
+		<information>
+			The Stewart Island tokoeka is the largest of the kiwi. Fiordland tokoeka are also very large, but Haast birds are smaller. Widespread in forest, scrub, tussock grasslands and subalpine zones of the south-western South Island and on Stewart Island. Flightless, with tiny vestigial wings and no tail. Generally nocturnal, therefore more often heard than seen, except on Stewart Island where birds often forage during the day. Male gives a repeated high-pitched ascending whistle, female gives a deeper throaty cry. A range of colours from rufous brown in Haast, to brown and dark brown elsewhere, streaked lower_lengthways with reddish brown and black. Feather tips feel soft. Long pale bill, short legs and toes.
+		</information>
+		<identification>Large brown kiwi. Rufous to dark brown soft feathers streaked with brown and black; long pale bill, short pale legs and toes.
+
+		Voice:  Male gives a high-pitched ascending whistle repeated 15-25 times, female gives a slower and lower pitched hoarse guttural call repeated 10-20 times.
+
+		Similar species: rowi are smaller and greyer. The calls of weka are similar to the call of the male tokoeka, but weka have two-syllable calls, and usually have fewer repetitions.</identification>
+		<image>south_brown_kiwi.jpg</image>
+		<image_220>south_brown_kiwi-220.jpg</image_220>
+		<alt>Southern brown kiwi | Tokoeka. Adult Stewart Island kiwi on bush track in daylight. Stewart Island, March 2015. Image © Glenda Rees by Glenda Rees https://www.flickr.com/photos/nzsamphotofanatic/</alt>
+		<source>https://nzbirdsonline.org.nz/species/southern-brown-kiwi</source>
+	</bird>
+
+	<!--https://nzbirdsonline.org.nz/species/great-spotted-kiwi  -->
+	<bird>
+		<english_name>Great spotted kiwi</english_name>
+		<maori_name>Roroa</maori_name>
+		<scientific_name>Apteryx maxima</scientific_name>
+		<conservation_status>Nationally Vulnerable</conservation_status>
+		<classification>Flightless</classification>
+		<other_names>roa</other_names>
+		<length>45 cm</length>
+		<weight>2.2 kg (male), 3 kg (female)</weight>
+		<lower_length>45</lower_length>
+		<length_unit>cm</length_unit>
+		<lower_weight>2200</lower_weight>
+		<weight_unit>g</weight_unit>
+		<upper_length>45</upper_length>
+		<upper_weight>3000</upper_weight>
+		<bird_id>12</bird_id>
+		<information>
+			The second largest of the five kiwi species. Widespread in forest, scrub, upland tussock grasslands and subalpine zones of the north-western South Island. Flightless, with tiny vestigial wings and no tail. Nocturnal, therefore more often heard than seen. Male gives a repeated high-pitched ascending whistle, female gives a slower and lower pitched ascending whistle. Plumage brownish-grey finely mottled or banded horizontally with white, long pale bill, short dark legs and toes, often with dark or dark streaked claws. Until 2021 known as Apteryx haastii; however, this name was based on two hybrid rowi x little spotted kiwi specimens captured near Franz Josef.
+		</information>
+		<identification>Large pale kiwi. Brownish-grey finely mottled or banded horizontally with white, long pale bill, short dark legs and toes, often with dark or dark streaked claws.
+
+		Voice:  Male gives a high-pitched ascending whistle repeated 10-20 times, female gives a slower and lower pitched ascending trill repeated 10-15 times.
+
+		Similar species: Juvenile great spotted kiwi pass through a stage when they are similar to little spotted kiwi, but little spotted kiwi have pale legs, toes and claws. Similar to hybrid rowi x little spotted kiwi, but great spotted kiwi have much more massive legs.</identification>
+		<image>spotted_kiwi.jpg</image>
+		<image_220>spotted_kiwi-220.jpg</image_220>
+		<alt>Great spotted kiwi | Roroa. Adult. Paparoa National Park, August 2017. Image © Matthias Dehling by Matthias Dehling</alt>
+		<source>https://nzbirdsonline.org.nz/species/great-spotted-kiwi</source>
+	</bird>
+
+	<!--https://nzbirdsonline.org.nz/species/thin-billed-prion  -->
+	<bird>
+		<english_name>Thin-billed prion</english_name>
+		<maori_name>Korotangi</maori_name>
+		<scientific_name>Pachyptila belcheri</scientific_name>
+		<conservation_status>Migrant</conservation_status>
+		<classification>Seabird</classification>
+		<other_names> narrow-billed prion, slender-billed prion, thinbilled prion, thin billed prion, narrowbilled prion, narrow billed prion, slenderbilled prion, slender billed prion</other_names>
+		<length> 26 cm</length>
+		<weight>145 g</weight>
+		<lower_length>26</lower_length>
+		<length_unit>cm</length_unit>
+		<lower_weight>145</lower_weight>
+		<weight_unit>g</weight_unit>
+		<upper_length>26</upper_length>
+		<upper_weight>145</upper_weight>
+		<bird_id>13</bird_id>
+		<information>
+			The thin-billed prion is an abundant small seabird of the Falkland Islands, southern Chile, and the southern Indian Ocean (Kerguelen Islands). They are very similar in appearance to the five other prion species: blue-grey and black above, and white below, with blue-grey bill and blue legs. Thin-billed prions do not breed in the New Zealand region, but low numbers are often found storm-wrecked on beaches in late winter, especially on the west coast of the North Island.
+		</information>
+		<identification>All six prion species are very similar in appearance and behaviour, differing mainly in bill shape. All are medium-small seabirds that are blue-grey above and white below, with a blackish ‘M’ across the back from wingtip to wingtip, a black tip to the upper tail, blue-grey bill, and blue legs and feet. The dark ‘M’ is less pronounced in the thin-billed prion than in the other prion species.
+
+		Voice: prions rarely call at sea, but they are vocal on the ground at night at their breeding colonies, giving harsh chattering calls and softer dove-like crooning.
+
+		Similar species: as its name suggests, the thin-billed prion has the narrowest and least robust bill of all the prions (9.5-12.5 mm wide). It also has a paler face, with a more prominent white stripe above and behind the eye. The facial markings are similar to some populations of fairy prion, which differ in having a more robust bill and a broader black tip to the upper tail. Antarctic prion is similar but with darker face markings and generally wider bill (11-15.5 mm wide).</identification>
+		<image>prion.jpg</image>
+		<image_220>prion-220.jpg</image_220>
+		<alt>Thin-billed prion | Korotangi. Adult on water. Offshore Kawhia, August 2018. Image © Oscar Thomas by Oscar Thomas</alt>
+		<source>https://nzbirdsonline.org.nz/species/thin-billed-prion</source>
+	</bird>
+
+	<!--https://nzbirdsonline.org.nz/species/grey-backed-storm-petrel  -->
+	<bird>
+		<english_name>Grey-backed storm petrel</english_name>
+		<maori_name>Reoreo</maori_name>
+		<scientific_name>Garrodia nereis</scientific_name>
+		<conservation_status>Relict</conservation_status>
+		<classification>Seabird</classification>
+		<other_names>
+			gray-backed storm petrel, greybacked storm petrel, grey backed storm petrel
+		</other_names>
+		<length>18 cm</length>
+		<weight>32 g</weight>
+		<lower_length>18</lower_length>
+		<length_unit>cm</length_unit>
+		<lower_weight>32</lower_weight>
+		<weight_unit>g</weight_unit>
+		<upper_length>18</upper_length>
+		<upper_weight>32</upper_weight>
+		<bird_id>14</bird_id>
+		<information>
+			Grey-backed storm petrels are tiny grey-and-white seabirds found throughout the southern ocean in subantantarctic to temperate waters. They do not migrate, but range further away from the breeding islands after the season is over. Although one of the smallest seabirds known from the New Zealand region, they thrive in the often wild seas of the roaring forties, the furious fifties and even reaching the screaming sixties. There is a long history of grey-backed storm petrels being attracted to lights in Fiordland and South Westland, including adults with bare brood-patches, and recently fledged young with down adhering. The provenance of these birds is unknown, but there has been speculation that there may be a breeding colony somewhere inaccessible to predators in a remote area of Fiordland.
+		</information>
+		<identification>Grey-backed storm petrels are dark-grey on the head, breast and neck, slightly paler grey on the back and ashy grey on the rump. The flight and tail feathers are black. The belly and under the wings are white excepting a black leading edge to the wing. They are compactly built, with short tails and legs, with the feet barely reaching past the tip of the tail. In flight they flutter more and use their legs less than other storm petrels, but at times do run off the surface of the water.
+
+		Voice: a monotonous wheezy, cricket-like chirp with two syllables is given by birds on the ground at the breeding colonies.
+
+		Similar species: In harsh light, grey-backed storm petrels can look very dark, but they never have the white rump that the black-and-white storm petrels do. White-faced storm petrels also have grey backs, but they are larger with longer legs and have a characteristic bounding flight.</identification>
+		<image>grey_storm_petrel.jpg</image>
+		<image_220>grey_storm_petrel-220.jpg</image_220>
+		<alt>Grey-backed storm petrel | Reoreo. Adult in flight. Tutukaka Pelagic out past Poor Knights Islands, July 2021. Image © Scott Brooks (ourspot) by Scott Brooks</alt>
+		<source>https://nzbirdsonline.org.nz/species/grey-backed-storm-petrel</source>
+	</bird>
+
+	<!-- https://nzbirdsonline.org.nz/species/grey-noddy -->
+	<bird>
+		<english_name>Grey noddy</english_name>
+		<maori_name></maori_name>
+		<scientific_name>Anous albivittus</scientific_name>
+		<conservation_status>Relict</conservation_status>
+		<classification>Seabird</classification>
+		<other_names>
+			grey ternlet, blue-grey noddy, blue-billy, gray ternlet, gray noddy, blue-gray noddy
+		</other_names>
+		<length>22 - 28 cm</length>
+		<weight>45 - 70 g</weight>
+		<lower_length>22</lower_length>
+		<length_unit>cm</length_unit>
+		<lower_weight>45</lower_weight>
+		<weight_unit>g</weight_unit>
+		<upper_length>28</upper_length>
+		<upper_weight>70</upper_weight>
+		<bird_id>15</bird_id>
+		<information>
+			This small, graceful tern of the subtropical and tropical Pacific hovers and flutters using its webbed feet to patter on the sea surface while feeding, like a storm-petrel. The Latin name Procelsterna is a compounding of Procellaria, or "storm-petrel", and the Latin "sterna" for a tern; "cerulea" refers to its blue-grey colour. Its closest relative is the larger white tern. Both species have prominent dark eyes with a small black surrounding patch that extends from the eye towards the bill. In contrast to the pure white plumage of the white tern, the grey noddy has blue-grey wings, grading darker at the tips.
+		</information>
+		<identification>The grey noddy is a small, delicate tern with pale blue-grey upperparts, and off-white underparts. The upperwings are slightly darker than the rest of the body, with greyer or brown tinged coverts, and blackish outer flight feathers. The short tail has a shallow fork. Most birds have a thin white partial eye-ring around the back half of the eye. The black bill is slender and sharply pointed, with bright orange at the gape. The long black legs and large feet are black with pale pink webs. The sexes are alike. Juveniles are similar to adults with brownish upperparts and crown. Grey noddies fly with a deep-winged, floating, leisurely flight.
+
+		Voice: noisy screams are given in flight when flocks are disturbed, and a continuous purring cror-r-r-r while sitting on rocks.
+
+		Similar species: the white tern is larger and whiter, though grey noddy can also appear white when at a distance in bright sunlight.</identification>
+		<image>noddy.jpg</image>
+		<image_220>noddy-220.jpg</image_220>
+		<alt>Grey noddy. Adult in flight. Poor Knights Islands, January 2021. Image © Scott Brooks (ourspot) by Scott Brooks</alt>
+		<source>https://nzbirdsonline.org.nz/species/grey-noddy</source>
+	</bird>
+
+	<!-- https://nzbirdsonline.org.nz/species/fluttering-shearwater -->
+	<bird>
+		<english_name>Fluttering shearwater</english_name>
+		<maori_name>Pakahā</maori_name>
+		<scientific_name>Puffinus gavia</scientific_name>
+		<conservation_status>Relict</conservation_status>
+		<classification>Seabird</classification>
+		<other_names>
+			pakaha, Forster's shearwater, brown-beaked shearwater, flutterer
+		</other_names>
+		<length>37 cm</length>
+		<weight>365 g</weight>
+		<lower_length>37</lower_length>
+		<length_unit>cm</length_unit>
+		<lower_weight>365</lower_weight>
+		<weight_unit>g</weight_unit>
+		<upper_length>37</upper_length>
+		<upper_weight>365</upper_weight>
+		<bird_id>16</bird_id>
+		<information>
+			The fluttering shearwater, with its distinctive, "flutter-glide" flight, is a ubiquitous seabird of inshore waters in the top half of New Zealand, especially in the northern-eastern North Island and Marlborough Sounds-Cook Strait regions. It is often seen in flocks, sometimes numbering thousands of birds, moving rapidly while foraging. Fluttering shearwaters feeds in association with schools of fish (e.g. kahawai, trevally) or in massive groups at the surface on crustaceans; and at times, resting in large, dense rafts. During the post-breeding period, a considerable proportion of the population remain within local waters, where fluttering shearwaters are a common sight inshore throughout winter months. They have been observed visiting colonies during the non-breeding period. However, they are also trans-Tasman migrants and are recorded in considerable numbers in eastern and south-eastern Australian waters from February to August. These birds may all be pre-breeders, and have included band recoveries of recently-fledged chicks.   
+		</information>
+		<identification>The fluttering shearwater is a small dark-brown-and-white shearwater. A dark cap extends below the eye in a smudgy line to a partial collar, giving the head a dusky appearance. The upper-surfaces are uniformly dark grey-brown, including neck, wings and tail. Distinctive white patches (‘saddle bags’) extend up from the white flanks, behind the wings to form white sides to the rump. White extends from the chin to the under-tail, apart from a dark thigh patch. The under-wings have a dusky appearance with variable dark markings on the inner-wing, although in strong low light can appear white. The appearance can vary markedly with light conditions. The bill is long, thin, and dark; the legs and feet are pinkish-brown with dark webs. The feet extend beyond the tail in flight. They moult from late January, appearing ragged, with the dark upper surfaces faded to mid-brown. Their flight is best described as ‘determined’, i.e. low and fast, with bursts of rapid wing-beating (fluttering) interspersed with short glides. 
+
+		Voice: a distinctive, staccato ka-hek-ka-hek-ka-hek, mostly made in flight, over and around colonies, however very occasionally heard calling at sea amongst feeding flocks.
+
+		Similar species: Hutton’s shearwater is a very similar-looking, but larger bird. Confusion with Hutton’s shearwater is most likely in central New Zealand around Cook Strait where both species overlap during breeding; Hutton’s shearwater is a rare visitor to northern New Zealand waters and mostly likely before or after breeding. Its head is darker, with little white showing on the chin and throat; the under-wing pattern is also darker. In the hand, Hutton’s shearwater has a longer, slimmer bill, and dark outer vanes to the undertail coverts (these are white in fluttering shearwaters). Little shearwater occurs with fluttering shearwater in northern New Zealand waters. Little shearwater is smaller and has white extending above the eye. Combined with the shorter bill and white underwings, it has a ‘cleaner’, sharper appearance than fluttering shearwater. Subantarctic little shearwater (southern New Zealand) is smaller, darker above and whiter below (especially underwings). Manx shearwater and Newell’s shearwater are both very rare vagrants to New Zealand; both are bolder black-and-white than fluttering shearwater, with a triangle of white reaching up to the ear, more prominent white ‘saddle-bags’ and cleaner white underwing with broad dark trailing edge (the two differ from each other in mainly in the colour of their undertail).</identification>
+		<image>fluttering_shearwater.jpg</image>
+		<image_220>fluttering_shearwater-220.jpg</image_220>
+		<alt>Fluttering shearwater | Pakahā. Adult in flight. Hauraki Gulf, November 2011. Image © Neil Fitzgerald by Neil Fitzgerald www.neilfitzgeraldphoto.co.nz</alt>
+		<source>https://nzbirdsonline.org.nz/species/fluttering-shearwater</source>
+	</bird>
+
+	<!--https://nzbirdsonline.org.nz/species/snares-crested-penguin-pokotiwha -->
+	<bird>
+		<english_name>Snares crested penguin</english_name>
+		<maori_name>Pokotiwha</maori_name>
+		<scientific_name>Eudyptes robustus</scientific_name>
+		<conservation_status>Naturally Uncommon</conservation_status>
+		<classification>Seabird</classification>
+		<other_names>Snares penguin, Snares Island penguin</other_names>
+		<length>60 cm</length>
+		<weight>3 kg</weight>
+		<lower_length>60</lower_length>
+		<length_unit>cm</length_unit>
+		<lower_weight>3000</lower_weight>
+		<weight_unit>g</weight_unit>
+		<upper_length>60</upper_length>
+		<upper_weight>3000</upper_weight>
+		<bird_id>17</bird_id>
+		<information>
+			The Snares crested penguin is one of eight similar-looking species of crested penguins, all of which have occurred in New Zealand, and four of which breed here. The Snares crested penguin has the most restricted breeding distribution of all the crested penguin species, being endemic to the 300 ha Snares Islands group. Moulting birds may occur on any of the subantarctic islands and north to Cook Strait. It is sometimes considered conspecific with the Fiordland crested penguin. However, despite 20-30 of the latter visiting the Snares Islands each breeding season, the two species have never been found interbreeding. An enduring mystery of the Snares crested penguin is why birds in the tiny population on the Western Chain islets, 3 km south-west of the main islands, breed 6 weeks later than the birds on North East and Broughton Islands. Are these birds reproductively isolated, and therefore a cryptic species?
+		</information>
+		<identification>The Snares crested penguin is a medium-sized crested penguin, about three times larger than the familiar little penguin. It has a black back, face and throat, sharply demarcated from white underparts. The robust orange bill has prominent pink skin around the base. Thin yellow eyebrow stripes start near the nostrils and spread into crests behind the red-brown eyes. From the front, the two crests spread out as a ‘V’. Immature birds have smaller bills and crests.
+
+		Voice: a very loud, pulsing bray.
+
+		Similar species: Fiordland crested penguin has a smaller bill, lacking bare skin at the base. It typically has broader stripes above the eye, and the pale bases to the cheek feather often show as whitish stripes on the cheek. Immature Fiordland crested penguins usually have whitish cheeks. Erect-crested penguins have crests starting nearer the corner of the mouth and rising obliquely over the eyes. From the front, the crests of erect-crested penguins appear more parallel than the splayed crests of other crested penguins. From the side, erect-crested penguins have a relatively large chin and a domed crown. The three rockhopper penguin species are smaller than Snares crested penguin, with redder eyes and more flared crests incorporating more black feathers.</identification>
+		<image>crested_penguin.jpg</image>
+		<image_220>crested_penguin-220.jpg</image_220>
+		<alt>Snares crested penguin | Pokotiwha. Adult standing in profile. Station Point, The Snares, December 1986. Image © Alan Tennyson by Alan Tennyson</alt>
+		<source>https://nzbirdsonline.org.nz/species/snares-crested-penguin-pokotiwha</source>
+	</bird>
+
+	<!--https://nzbirdsonline.org.nz/species/snares-island-snipe  -->
+	<bird>
+		<english_name>Snares Island snipe</english_name>
+		<maori_name>Tutukiwi</maori_name>
+		<scientific_name>Coenocorypha huegeli</scientific_name>
+		<conservation_status>Naturally Uncommon</conservation_status>
+		<classification>Flightless</classification>
+		<other_names>tutukiwi, New Zealand snipe</other_names>
+		<length>22 cm</length>
+		<weight>109 g</weight>
+		<lower_length>22</lower_length>
+		<length_unit>cm</length_unit>
+		<lower_weight>109</lower_weight>
+		<weight_unit>g</weight_unit>
+		<upper_length>22</upper_length>
+		<upper_weight>109</upper_weight>
+		<bird_id>18</bird_id>
+		<information>
+			The Snares Islands snipe is the stockiest and most sombre-plumaged member of the New Zealand snipes. Between 1953 and 2010 it was considered a subspecies of what is now called the subantarctic snipe. Genetic comparisons then confirmed earlier suggestions that the Snares Islands birds were structurally distinct from the snipe found on islands further south. Naturally confined to a tiny island group, the Snares Island snipe has never been impacted by introduced predators. Following a translocation to Putauhinu Island in 2005 (to replace the extinct South Island snipe), and subsequent translocations to other islands near Stewart Island, the Snares Island snipe is probably more abundant than at any time in its evolutionary history.
+		</information>
+		<identification>Snares Island snipe are unmistakeable within their range, as there are no other similar-sized ground birds present. Compared to other living New Zealand snipes, Snares Island snipe are chunkier, with a relatively short bill and legs. They also differ in having barred feathers on the belly, and less variegated dorsal plumage. Males usually have clearer buff edges to their dorsal feather than females, and also tend to have yellowish legs (cf. greenish in the female). Juveniles are duller than adults, with the plumage washed with grey, and legs olive.  
+
+		Voice (adult male): a strident chup chup chup sometimes building to a loud queeyoo queeyoo queeyoo.</identification>
+		<image>snares_snipe.jpg</image>
+		<image_220>snares_snipe-220.jpg</image_220>
+		<alt>Snares Island snipe | Tutukiwi. Adult. North East Island, Snares Islands, December 1985. Image © Colin Miskelly by Colin Miskelly</alt>
+		<source>https://nzbirdsonline.org.nz/species/snares-island-snipe</source>
+	</bird>
+
+	<!--https://nzbirdsonline.org.nz/species/chatham-island-mollymawk -->
+	<bird>
+		<english_name>Chatham Island mollymawk</english_name>
+		<maori_name>Toroa</maori_name>
+		<scientific_name>Thalassarche eremita</scientific_name>
+		<conservation_status>Naturally Uncommon</conservation_status>
+		<classification>Seabird</classification>
+		<other_names>
+			Chatham Island albatross, Chatham albatross, Chatham mollymawk
+		</other_names>
+		<length>90 cm</length>
+		<weight>3.1 - 4.7 kg</weight>
+		<lower_length>90</lower_length>
+		<length_unit>cm</length_unit>
+		<lower_weight>3100</lower_weight>
+		<weight_unit>g</weight_unit>
+		<upper_length>90</upper_length>
+		<upper_weight>4700</upper_weight>
+		<bird_id>19</bird_id>
+		<information>
+			The Chatham Island mollymawk is a rare albatross with a restricted range. It is striking in appearance, with a dark grey head and bright yellow bill. Endemic to the Chatham Islands, the entire population breeds on The Pyramid, an isolated, almost inaccessible rock stack located south of Pitt Island in the South Pacific Ocean. Truly a pelagic species they spend most of their life at sea only returning to land to breed. The population is stable but vulnerable to severe storm events. Small numbers are caught as bycatch in domestic longline fisheries in New Zealand. However, they are vulnerable to longline fisheries off the coasts of Peru and Chile, where they migrate to outside the breeding season.
+		</information>
+		<identification>The Chatham Island mollymawk is an endemic medium-sized albatross from the Chatham Islands. Adults have a dark-grey head and neck, with white behind the eye and a thick black line in front of the eye extending towards the bill. The upperwings and back are blackish-brown, and the tail dark grey. The underparts and rump are white, and the underwings are white with a thin black edge (slightly thicker on leading edge) and a small black patch where the leading edge of the wing meets the body, and dark grey to black primaries. The bill is deep yellow with a black lower mandible tip. The legs and feet are light grey-flesh coloured. Immature Chatham Island mollymawks have a lighter grey head, variable amounts of grey on the underwing and undertail, and a yellowish-black bill with a black tip. Juveniles are similar to immature, but with a dark-grey bill with a black tip. Chicks have all light grey down and a black bill.
+
+		Voice: Chatham Island mollymawks are usually quiet at sea. They have a series of calls associated with breeding and territorial defence at colonies: bill clacking, harsh croaks and braying followed by aka aka aka calls.
+
+		Similar species: Adult Salvin’s mollymawks have a lighter grey head with a greyish-yellow bill (also with a dark tip to the lower mandible). Juveniles of Chatham Island, Salvin’s and Buller’s mollymawks are all similar, but are rarely seen in New Zealand waters, as all three migrate to seas off Chile and Peru after fledging. Buller’s mollymawk is smaller, with a less robust bill. Chatham Island mollymawk juveniles have the darkest ‘hood’, and generally show some yellow at the base of the bill.</identification>
+		<image>mollymawk.jpg</image>
+		<image_220>mollymawk-220.jpg</image_220>
+		<alt>Chatham Island mollymawk | Toroa. Adult in flight. The Pyramid, Chatham Islands, December 2009. Image © Mark Fraser by Mark Fraser</alt>
+		<source>https://nzbirdsonline.org.nz/species/chatham-island-mollymawk</source>
+	</bird>
+
+	<!-- https://nzbirdsonline.org.nz/species/spotless-crake -->
+	<bird>
+		<english_name>Spotless crake</english_name>
+		<maori_name>Pūweto</maori_name>
+		<scientific_name>Zapornia tabuensis</scientific_name>
+		<conservation_status>Declining</conservation_status>
+		<classification>Wetland</classification>
+		<other_names>sooty rail, pūweto, puweto, putoto</other_names>
+		<length>20 cm</length>
+		<weight>45 g</weight>
+		<lower_length>20</lower_length>
+		<length_unit>cm</length_unit>
+		<lower_weight>45</lower_weight>
+		<weight_unit>g</weight_unit>
+		<upper_length>20</upper_length>
+		<upper_weight>45</upper_weight>
+		<bird_id>20</bird_id>
+		<information>
+			The spotless crake is a cryptic bird of freshwater wetlands throughout the North Island. It is a small, dark coloured rail (about half the size of a Eurasian blackbird) that is very secretive and infrequently seen. Their furtive nature and good dispersal ability mean that they could be present in areas of suitable habitat far from known populations.
+		</information>
+		<identification>The spotless crake is a small dark rail. The plumage is dark brown on the upper parts and dark bluish grey beneath. The stout bill is black. The legs are orange-pink and the bright red eyes contrast sharply with the dark head. Juveniles are duller with a pale chin and throat and dark legs.
+
+		Voice: heard more often than seen. Several different calls are given, including bubbling sounds, a short 'pit-pit', a repeated 'mook' and the loudest call, a long trilling 'purr'.
+
+		Similar species: spotless crake are similar in size and shape to a marsh crake, however marsh crakes are much more strikingly patterned. It is possible that calls of unseen birds could be confused.</identification>
+		<image>spotless_crake.jpg</image>
+		<image_220>spotless_crake-220.jpg</image_220>
+		<alt>Spotless crake | Pūweto. Adult feeding. Pauatahanui Inlet, February 2019. Image © Paul Le Roy by Paul Le Roy</alt>
+		<source>https://nzbirdsonline.org.nz/species/spotless-crake</source>
+	</bird>
+
+	<!-- https://nzbirdsonline.org.nz/species/black-billed-gull -->
+	<bird>
+		<english_name>Black-billed gull</english_name>
+		<maori_name>Tarāpuka</maori_name>
+		<scientific_name>Chroicocephalus bulleri</scientific_name>
+		<conservation_status>Declining</conservation_status>
+		<classification>Seabird</classification>
+		<other_names>
+			Buller's gull, tarapuka, seagull, blackbilled gull, black billed gull
+		</other_names>
+		<length>35 - 38 cm</length>
+		<weight>230 g</weight>
+		<lower_length>35</lower_length>
+		<length_unit>cm</length_unit>
+		<lower_weight>230</lower_weight>
+		<weight_unit>g</weight_unit>
+		<upper_length>38</upper_length>
+		<upper_weight>230</upper_weight>
+		<bird_id>21</bird_id>
+		<information>
+			Although the black-billed gull is still relatively abundant, numbers of birds throughout the South Island have rapidly declined. Nevertheless, colonies can still number in the thousands. The black-billed gull is found only in New Zealand, unlike our two other common gull species. They are less likely to be found in towns and cities than the other gulls, and are not commonly observed scavenging for food. Interestingly, though declining overall, the black-billed gull has expanded its breeding range in the North Island in the last few decades, and now breeds as far north as the Kaipara Harbour.
+		</information>
+		<identification>The black-billed gull is more slender than the red-billed gull, with a longer bill. Breeding adults have a white head, neck, rump, tail and underparts, and pale silver-grey wings and back. The outer primaries are mainly white with white-tipped black margins. A diagnostic white leading edge to the wing shows in flight. The bill and legs are black; during late incubation and hatching the legs become vibrant blood red. The eye is white, and the eye-ring red. Non-breeding adults have a bi-coloured bill, reddish at the base with a black tip and line through the middle. During autumn-winter, all ages may have a grey patch above, below and in front of the eye. Immature (2nd year) birds have a grey eye, black eye-ring, bi-coloured bill (pinkish red with dark grey-black tip and line through middle) and pinkish-red legs (some almost orange). Juveniles have variable amounts of grey-brown on the crown and ears, lost during late summer-autumn.  The tail is white, sometimes with a grey-brown subterminal band. The wing is pale silver-grey with brownish terminal margins; large brown-black tips to the tertials and a dark carpal bar are retained through the first year. In flight, juveniles have a dark trailing edge to secondaries and white-tipped primaries. The black outer webs of the primaries are variable, distinctly darker than adults, thus the predominantly white leading fore edge of adults is absent. The bill is bi-coloured, dull pale pink with a dark grey-black tip; the eye is black, the eye-ring is grey-black and the legs are dull pale pink.
+
+		Voice: typical gull-like calls, including constant chatter from breeding colonies.
+
+		Similar species: in non-breeding plumage, black-billed gulls have a bi-coloured bill and red legs, and may be confused with red-billed gulls. Juvenile black-billed gulls are most confusing, as they have a dark outer leading edge to the wing (this is white in older age classes). In all plumages, black-billed gull has a longer, finer bill. Red-billed gull is darker grey with a black patch through the middle of the outer primaries, diagnostic in flight. The red bill (which is shorter and thicker) and legs lose the brighter tones of summer during autumn-winter. Adult red-billed gulls do not acquire a contrasting bi-coloured bill, though do have darker shades of red near the tip and through the middle of the bill.</identification>
+		<image>black_billed_gull.jpg</image>
+		<image_220>black_billed_gull-220.jpg</image_220>
+		<alt>Black-billed gull | Tarāpuka. Adult standing on grass. Lake Taupo, July 2009. Image © John Flux by John Flux</alt>
+		<source>https://nzbirdsonline.org.nz/species/black-billed-gull</source>
+	</bird>
+
+	<!-- https://nzbirdsonline.org.nz/species/white-fronted-tern -->
+	<bird>
+		<english_name>White-fronted tern</english_name>
+		<maori_name>Tara</maori_name>
+		<scientific_name>Sterna striata Gmelin</scientific_name>
+		<conservation_status>Declining</conservation_status>
+		<classification>Seabird</classification>
+		<other_names>
+			kahawai bird, sea-swallow, swallowtail, black-billed tern, whitefronted tern, white fronted tern
+		</other_names>
+		<length>42 cm</length>
+		<weight>160 g</weight>
+		<lower_length>42</lower_length>
+		<length_unit>cm</length_unit>
+		<lower_weight>160</lower_weight>
+		<weight_unit>g</weight_unit>
+		<upper_length>42</upper_length>
+		<upper_weight>160</upper_weight>
+		<bird_id>22</bird_id>
+		<information>
+			The white-fronted tern is the most common tern on the New Zealand coastline, at times occurring in flocks of many hundreds or even thousands of birds. It is mainly a marine species that is seldom found far from the coast. The name "white-fronted" refers to the "frons" or forehead, where a thin strip of white separates the black cap from the black bill. Most other "capped" terns, including the black-fronted tern, have black caps that reach the bill when in breeding plumage. The scientific name striata refers to the finely-barred (striated) dorsal plumage of recently fledged white-fronted terns, as the original description and name was based on a juvenile bird painted by William Ellis, surgeon's second mate on the Discovery, on Captain Cook's third visit to New Zealand.
+		</information>
+		<identification>The white-fronted tern is a medium-sized, long-tailed sea tern that is common around New Zealand coasts. It is pale grey above and white below, with a black cap that is separated from the bill by a white band (or by an entirely white fore-crown in non-breeding plumage). The tail is white and forked; the lower_length of the tail and depth of the fork decrease in size outside of the breeding season. The outer edge of the first primary has a narrow black or brownish-black band. In the breeding season, the black cap extends from the white frontal strip down to the back of neck, and both sexes may develop a pink flush to the underparts. Outside of the breeding season the cap recedes, leaving the forehead white. The eyelids, eyes and bill are black, and the legs vary from black to dull red-brown. Sexes are similar but females are slightly smaller. Immature birds are similar to non-breeding adults. They have the black nape streaked with white and the wing coverts and distinctive light brown mottling. Recently fledged birds have fine blackish barring (striations) over the back and wing coverts.
+
+		Voice: the main call is a high-pitched siet; a harsh keark or keeahk is uttered by birds defending their nests.
+
+		Similar species: the white-fronted tern is easily distinguished from the two other widespread New Zealand tern species (the much larger Caspian tern, and smaller, darker black-fronted tern), but is very similar to the Arctic tern and especially the common tern, which are rare visitors to New Zealand. The white-fronted tern is the largest and palest of the three species.</identification>
+		<image>white_fronted_tern.jpg</image>
+		<image_220>white_fronted_tern-220.jpg</image_220>
+		<alt>White-fronted tern | Tara. Adult. Pahi, August 2012. Image © Thomas Musson by Thomas Musson tomandelaine@xtra.co.nz</alt>
+		<source>https://nzbirdsonline.org.nz/species/white-fronted-tern</source>
+	</bird>
+
+	<!-- https://nzbirdsonline.org.nz/species/grey-teal  (HERE UP)--> 
+	<bird>
+		<english_name>Grey teal</english_name>
+		<maori_name>Tētē-moroiti</maori_name>
+		<scientific_name>Anas gracilis</scientific_name>
+		<conservation_status>Not Threatened</conservation_status>
+		<classification>Wetland</classification>
+		<other_names>tētē, tete moroiti, tete, gray teal</other_names>
+		<length>42 - 44 cm</length>
+		<weight>505 g (male); 470 g (female)</weight>
+		<lower_length>42</lower_length>
+		<length_unit>cm</length_unit>
+		<lower_weight>505</lower_weight>
+		<weight_unit>g</weight_unit>
+		<upper_length>44</upper_length>
+		<upper_weight>470</upper_weight>
+		<bird_id>23</bird_id>
+		<information>
+			The grey teal is a small dabbling duck that frequents shallow freshwater lakes. The bird is extremely nomadic. This nomadic way of life enables the bird to quickly exploit shallow temporary water during irregular flooding in the interior of Australia. The grey teal was self-introduced to New Zealand from Australia from irregular irruptions. The last major irruption occurred in 1957 following drought conditions in Australia. Pair-bonds appear to be retained from one season to the next. 
+		</information>
+		<identification>The grey teal is small, slim, ‘plain-faced’ duck, considerably smaller than a mallard or grey duck. It is mostly grey-brown in colour with pale cheeks, chin and throat. The eye is bright crimson, especially in adult males, and the bill is dark grey. Immature birds have a duller red eye. Wings are dark brown with the primaries darker brown, a broad green speculum on the secondaries, and a white stripe on the inner wing, just in front of the speculum. The underwing is off-white. Grey teal can be identified in flight by the white flash on the upperwing and the fast wing beat, although both are identical in the vagrant chestnut teal.                                       
+
+		Voice: a rapid cuck-cuck-cuck.
+
+		Similar species: chestnut teal (other than males in breeding plumage) are very similar to grey teal, differing mainly in being darker on the chin and cheeks, and having a more buff tone to the grey of the cheeks, throat and breast. Some male chestnut teal in eclipse plumage have a pale patch on the flank at the base of the tail, which becomes white in breeding plumage, when their bright chestnut plumage and green head make them very different to grey teal.</identification>
+		<image>grey_teal.jpg</image>
+		<image_220>grey_teal-220.jpg</image_220>
+		<alt>Grey teal | Tētē-moroiti. Adult swimming. Lake Okareka, August 2012. Image © Tony Whitehead by Tony Whitehead www.wildlight.co.nz</alt>
+		<source>https://nzbirdsonline.org.nz/species/grey-teal </source>
+	</bird>
+
+	<!-- https://nzbirdsonline.org.nz/species/black-swan -->
+	<bird>
+		<english_name>Black swan</english_name>
+		<maori_name>Kakīānau</maori_name>
+		<scientific_name>Cygnus atratus</scientific_name>
+		<conservation_status>Not Threatened</conservation_status>
+		<classification>Wetland</classification>
+		<other_names>kakaianu</other_names>
+		<length>110 - 140 cm</length>
+		<weight>5 - 7 kg (male), 4 - 6 kg (female)</weight>
+		<lower_length>110</lower_length>
+		<length_unit>cm</length_unit>
+		<lower_weight>5000</lower_weight>
+		<weight_unit>g</weight_unit>
+		<upper_length>140</upper_length>
+		<upper_weight>7000</upper_weight>
+		<bird_id>24</bird_id>
+		<information>
+			Black swans were deliberately reintroduced, initially from Melbourne, in the 1860s. Their distribution and abundance within a few years of those small reintroductions suggests that, coincidentally, natural re-colonisation may have occurred. Periodic immigration from Australia may still occur but has yet to be confirmed. Widespread and common in eastern and south-western Australia and Tasmania, the black swan also ranges into the continent's interior following heavy rain events.
+		</information>
+		<identification>A large black swan, usually seen floating on water. When the wings are lifted, or when flying, pure white flight feathers are visible, which are black-tipped in immature birds. The bill is a bright red with a terminal white band, the eyes are red, and the legs are dark grey. Both sexes are alike, but the female is noticeably smaller than the male. Cygnets are grey with a black bill, and newly-fledged young are dull greyish-brown with a brown eye. On land swans walk slowly and are ungainly. In flight, the birds labour and their conspicuous white flight feathers elicit a whistling sound.
+
+		Voice: generally described as “a musical bugling” given primarily as a contact call between mates and often accompanied by flicking  head movements. Hisses when defending young or when threatening.
+
+		Similar species: the only other swan in New Zealand is the larger and all white mute swan, which is very rare.</identification>
+		<image>black_swan.jpg</image>
+		<image_220>black_swan-220.jpg</image_220>
+		<alt>Black swan | Kakīānau. Adult male on lake. Lake Okareka, November 2009. Image © Tony Whitehead by Tony Whitehead www.wildlight.co.nz</alt>
+		<source>https://nzbirdsonline.org.nz/species/black-swan</source>
+	</bird>
+
+	<!-- https://nzbirdsonline.org.nz/species/australian-wood-duck -->
+	<bird>
+		<english_name>Australian wood duck</english_name>
+		<maori_name></maori_name>
+		<scientific_name>Chenonetta jubata</scientific_name>
+		<conservation_status>Coloniser</conservation_status>
+		<classification>Wetland</classification>
+		<other_names>maned goose, maned duck</other_names>
+		<length>48 cm</length>
+		<weight>800 g</weight>
+		<lower_length>48</lower_length>
+		<length_unit>cm</length_unit>
+		<lower_weight>800</lower_weight>
+		<weight_unit>g</weight_unit>
+		<upper_length>48</upper_length>
+		<upper_weight>800</upper_weight>
+		<bird_id>25</bird_id>
+		<information>
+			This rare vagrant to New Zealand has a distinctive dumpy goose-like appearance. Molecular genetic studies show that the Australian wood duck is related to shelducks (Tadorna spp.), not to pygmy-geese (Nettapus spp.) as previously thought from its outward appearance. Vagrants in much earlier times, perhaps during one of the Pleistocene glaciations, are thought to have given rise to the now-extinct New Zealand species, Finsch's duck, Chenonetta finschi.
+		</information>
+		<identification>The Australian wood duck is a sexually dimorphic species, with males and females differing primarily in their head and underbody colour and patterns; the female is also slightly smaller. The adult male has a uniform dark-brown head and neck, with a short black mane down the back of the neck, hence the species’ other name: maned duck. The lower neck and upper breast are speckled brown and pale grey gradually fading to grey in the lower breast. The mantle and upper back are grey with a faint brown wash. The tail, undertail coverts, and belly are black. The flanks look grey from a distance but when seen close-up are finely vermiculated black on a grey background. In contrast, the female has a lighter greyish-brown head, with two pale grey stripes, one from just above the eyes back to the ear-coverts, the other below the eyes, extending from the base of the bill to the ear coverts. The lower neck, breast and flanks are spotted brown and white, the markings aligned in places, producing a barred appearance. The upper back is grey-brown, becoming darker brown further back. The upper tail coverts are pale brown tinged with grey; the undertail covers are off-white, the same colour as the belly. The tail is black-brown. Both sexes have the same bold wing pattern, with dark primaries that contrast with white secondaries, which create a broad white panel on the trailing edge of the inner upperwing. Males have a narrow speculum of iridescent green or indigo just in front of the white panel (this is brown and only slightly iridescent in females). Both sexes have dark brown-black scapulars that form a stripe on either side of the upper body, separated in turn from the dark central back by a narrow strip of grey body feathers (much browner in the female). Adult males have a non-breeding ‘eclipse’ plumage that is similar to the female plumage but with less distinct face markings. The bill is short and goose-like, quite deep at the base, grey in both sexes. The legs are grey, tinged light brown, occasionally greenish; the eyes are dark brown.
+
+		Voice: various nasal calls, most commonly a drawn-out mew or new given by female, and a shorter, wheezy wee-ow given by the male.
+
+		Similar species: none in New Zealand, although the striking white wing pattern of a bird in flight might be confused with paradise shelduck, which is bigger, darker, and has white scapulars not secondaries. The grey teal, which shows white on the secondaries above a large greenish speculum, is smaller, slimmer, and browner.</identification>
+		<image>wood_duck.jpg</image>
+		<image_220>wood_duck-220.jpg</image_220>
+		<alt>Australian wood duck. Adult male on log. Playhouse Ponds, November 2019. Image © Scott Brooks (ourspot) by Scott Brooks</alt>
+		<source>https://nzbirdsonline.org.nz/species/australian-wood-duck</source>
+	</bird>
+
+	<!-- https://nzbirdsonline.org.nz/species/brown-quail -->
+	<bird>
+		<english_name>Brown quail</english_name>
+		<maori_name>Kuera</maori_name>
+		<scientific_name>Synoicus ypsilophorus (Bosc, 1792)</scientific_name>
+		<conservation_status>Introduced and Naturalised</conservation_status>
+		<classification>Flightless</classification>
+		<other_names>Australian brown quail, kuera, koera</other_names>
+		<length>18 - 20 cm</length>
+		<weight>82 - 100 g</weight>
+		<lower_length>18</lower_length>
+		<length_unit>cm</length_unit>
+		<lower_weight>82</lower_weight>
+		<weight_unit>g</weight_unit>
+		<upper_length>20</upper_length>
+		<upper_weight>100</upper_weight>
+		<bird_id>26</bird_id>
+		<information>
+			The brown quail was introduced to Auckland, Wellington, Otago and Southland during 1866-80, but is currently restricted to the northern North Island and its offshore islands. Along with failed releases of other quail species from Australia at the same time, it is possible that these releases contributed to the extinction of the endemic New Zealand quail through the introduction of new diseases. Tiritiri Matangi Island and Shakespear and Tawharanui Regional Parks are the most accessible places in New Zealand where brown quail are reliably found.
+		</information>
+		<identification>Brown quail are small, inconspicuous grey-brown quail, with intricately patterned plumage. The sexes are similar, but the female is slightly larger, and there are subtle differences in their plumage. The male has a more pronounced russet or cream throat patch, and bolder white longitudinal streaks on its upper-wing feathers. The red-brown and dark brown chevron pattern on the flanks of the female are more prominent compared to the lighter colour of the male, and the chest feathers of the female are red-brown compared to grey-brown on the male. Eye colour varies from red to yellow and the legs are orange or yellow. Both sexes have black bills.
+
+		Voice: the main call is a high pitched 'ker-wee' with a rising inflexion.
+
+		Similar species: California quail are large, plainer grey-brown dorsally, and have an erect plume crest.</identification>
+		<image>brown_quail.jpg</image>
+		<image_220>brown_quail-220.jpg</image_220>
+		<alt>Brown quail | Kuera. Adult. Tiritiri Matangi Island, March 2013. Image © Cheryl Marriner by Cheryl Marriner http://www.glen.co.nz/cheryl</alt>
+		<source>https://nzbirdsonline.org.nz/species/brown-quail</source>
+	</bird>
+
+	<!-- https://nzbirdsonline.org.nz/species/california-quail -->
+	<bird>
+		<english_name>California quail</english_name>
+		<maori_name>Tikaokao</maori_name>
+		<scientific_name>Callipepla californica</scientific_name>
+		<conservation_status>Introduced and Naturalised</conservation_status>
+		<classification>Flightless</classification>
+		<other_names>plumed quail, McPherson quail</other_names>
+		<length>25 cm</length>
+		<weight>145 - 210 g</weight>
+		<lower_length>25</lower_length>
+		<length_unit>cm</length_unit>
+		<lower_weight>145</lower_weight>
+		<weight_unit>g</weight_unit>
+		<upper_length>25</upper_length>
+		<upper_weight>210</upper_weight>
+		<bird_id>27</bird_id>
+		<information>
+			California quail are small, plump introduced game birds. They are common in open shrublands throughout most of the country. The male has a striking black face bordered with white, and a conspicuous top-knot or plume. The female is duller in colour with a less obvious plume. The young are numerous and able to fly at a young age, but have a low survival rate. In autumn, quail gather in large coveys to feed and roost together. The male call, often represented as "Chi-ca-go", is distinctive and diagnostic.
+		</information>
+		<identification>California quail are stocky, predominantly grey and brown, with a diagnostic forward-curling black plume rising erect from the top of their heads. Males have a black chin and cheeks edged with white, and separate white ‘eyebrows’ join on the forehead. The breast is blue-grey and the lower belly cream to rust brown with distinctive black scalloping, which merges into strong, pale streaks on the dark brown flanks. The female is slightly smaller, duller and browner, with some streaking on the neck and a more subdued scalloping on the belly, but with equally bold streaking on the flanks. Immature birds are similar to the female but a lighter brown. The female’s crest plume is much smaller than the male’s. Both sexes have fine speckling on the nape, which is bolder in the male. There is no seasonal change in plumage. California quail have short, rounded wings and a relatively long tail. Their legs and bill are black and sturdy, with the bill being slightly hooked.
+
+		Foraging quail pace sedately, but when disturbed they run at speed, their feet a blur of movement, or burst into flight with noisy, rapid wingbeats.
+
+		Voice: the distinctive 3-note male crow is described in a variety of entertaining ways (‘Tobacco’, ‘McPherson’, ‘Chi-ca-go’ etc.). It is more accurately rendered as ‘qua-quergo’. The first note may be given by itself. The calling bird is usually perched slightly above the surrounding area, e.g on a log or post. Other calls include foraging grunts, sharp urgent tut-tut warnings and soft tup-tup sounds, possibly location guides. Chicks make a high whistle, alerting parents to their location
+
+		Similar species: the brown quail is smaller and browner, with intricate patterning on the back, and lacks a head plume..</identification>
+		<image>cali_quail.jpg</image>
+		<image_220>cali_quail-220.jpg</image_220>
+		<alt>California quail | Tikaokao. Adult male. Wellington, February 2016. Image © Arindam Bhattacharya by Arindam Bhattacharya © www.ArindamBhattacharya.com</alt>
+		<source>https://nzbirdsonline.org.nz/species/california-quail</source>
+	</bird>
+
+	<!-- https://nzbirdsonline.org.nz/species/variable-oystercatcher -->
+	<bird>
+		<english_name>Variable oystercatcher</english_name>
+		<maori_name>Tōrea pango</maori_name>
+		<scientific_name>Haematopus unicolor</scientific_name>
+		<conservation_status>Recovering</conservation_status>
+		<classification>Seabird</classification>
+		<other_names>
+			black oystercatcher, torea pango, tōrea tai, torea tai, tōrea, torea, VOC
+		</other_names>
+		<length>48 cm</length>
+		<weight>720 g</weight>
+		<lower_length>48</lower_length>
+		<length_unit>cm</length_unit>
+		<lower_weight>720</lower_weight>
+		<weight_unit>g</weight_unit>
+		<upper_length>48</upper_length>
+		<upper_weight>720</upper_weight>
+		<bird_id>28</bird_id>
+		<information>
+			The variable oystercatcher is a familiar stocky coastal bird with a long, bright orange bill, found around much of New Zealand. They are often seen in pairs probing busily for shellfish along beaches or in estuaries. Previously shot for food, variable oystercatchers probably reached low numbers before being protected in 1922, since when numbers have increased rapidly. They are long-lived, with some birds reaching 30+ years of age. The existence of different colour morphs (black, intermediate or "smudgy", and pied) caused early confusion, and they were variously thought to be different species, forms, or hybrids. This confusion was compounded by a cline in morphs, with the proportion of all-black birds increasing from north to south. The colour morphs inter-breed freely and are now all accepted as being a single species.
+		</information>
+		<identification>The variable oystercatcher is a large heavily-built shorebird. Adults have black upperparts, their underparts vary from all black, through a range of ‘smudgy’ intermediate states to white. They have a conspicuous long bright orange bill (longer in females), and stout coral-pink legs. The iris is red and eye-ring orange. Downy chicks occur in two colour morphs; they have a black bill, pale-mid grey upper parts with black markings, and either grey or off-white underparts. First-year birds have a dark tip to the bill, browner dorsal plumage, and grey legs.
+
+		Voice: variable oystercatchers are very vocal; loud piping is used in territorial interactions and when alarmed, and they have a loud flight call similar to other oystercatchers. Chicks are warned of danger with a sharp, loud ‘chip’ or ‘click’.
+
+		Similar species: the black and smudgy morphs are distinctive. Pied morph birds can be confused with South Island pied oystercatcher. If seen together, adult variable oystercatchers are noticeably larger, but first-year birds may be confused. The demarcation between black and white on the breast is generally sharper on South Island pied, and they have more white showing forward of the wing when folded, and a broader white wingbar in flight. The pied morph is similar to Chatham Island oystercatcher, but their ranges are not thought to overlap.</identification>
+		<image>var_oyster.jpg</image>
+		<image_220>var_oyster-220.jpg</image_220>
+		<alt>Variable oystercatcher | Tōrea pango. Intermediate morph adult. Northland, January 2008. Image © Peter Reese by Peter Reese</alt>
+		<source>https://nzbirdsonline.org.nz/species/new-zealand-falcon</source>
+	</bird>
+
+	<!-- https://nzbirdsonline.org.nz/species/new-zealand-falcon -->
+	<bird>
+		<english_name>New Zealand falcon</english_name>
+		<maori_name>Kārearea</maori_name>
+		<scientific_name>Falco novaeseelandiae</scientific_name>
+		<conservation_status>Recovering</conservation_status>
+		<classification>Land</classification>
+		<other_names>
+			bush hawk, sparrow hawk, bush falcon, southern falcon, eastern falcon, quail hawk, karearea
+		</other_names>
+		<length>40 - 50 cm</length>
+		<weight>205 - 340 g (male), 420 - 740 g (female)</weight>
+		<lower_length>40</lower_length>
+		<length_unit>cm</length_unit>
+		<lower_weight>205</lower_weight>
+		<weight_unit>g</weight_unit>
+		<upper_length>50</upper_length>
+		<upper_weight>740</upper_weight>
+		<bird_id>29</bird_id>
+		<information>
+			The New Zealand falcon is a magpie-sized raptor that feeds predominantly on live prey. Adapted to hunt within the dense New Zealand forests they are also found in more open habitats such as tussocklands and roughly grazed hill country. More recently they have been discovered breeding in exotic pine plantations. Laying their eggs in simple scrapes they can nest in a variety of locations, from within the epiphytes that grow in large trees, to on the ground under small rocky outcrops. Where they nest on the ground they are well known for attacking intruders, including humans, with aggressive dive-bombing strikes to the head.
+		</information>
+		<identification>Often seen hunting small passerines in dramatic chases, they have long pointed wings and a long tail. Wings and tail open out into a more rounded shape when soaring. When perched they have an upside-down teardrop shaped silhouette. Males are approximately a third smaller than females. All ages have a dark eye and a distinct moustache or malar stripe running from the back of a strongly hooked bill vertically down the face. Adults have yellow legs, eye-ring and cere, are largely dark brown on the back, have a streaked cream breast and a rufous under tail and thighs. Recent fledglings and juveniles are more uniformly dark brown, lacking the defined cream streaks on the breast, and their legs, eye-ring and cere are blue-grey.
+
+		Voice: A loud ‘kek kek kek’ is commonly uttered in defence of a territory by both adults during the breeding season. The female’s call is deeper than the male’s more high pitched call. Adult females and juveniles will also ‘whine’ for food and a ‘chitter’ is often uttered during interactions between falcons.
+
+		Similar species: Sometimes confused with the swamp harrier that is commonly seen feeding on road-kill, the falcon very rarely feeds on carrion, and is smaller. Falcons are more often seen in active chasing flights rather than the lazy quartering flights typical of the harrier. The falcon lacks the obvious cream/pale rump of the harrier and glides with its wings set flat rather than in a shallow V-shape. Long-tailed cuckoo also have long pointed wings, a long tail and rapid wing beats. However falcons have a deeper wing, their tail is not quite as pronounced and their flight is less erratic. Easily distinguished by the difference in calls: the cuckoo almost always uttering its harsh chatter ‘rrrp pe-pe-pe-pe-pee’ when flying. The falcon could also be confused with vagrant raptors that occasionally arrive in New Zealand from Australia. The black kite is larger (roughly the size of a harrier) and has a distinctive forked tail. The nankeen kestrel is more delicate, has a cinnamon brown back, long slender wings and a habit of hovering which our falcon does not. The black falcon is more uniformly sooty black and has far longer more pointed wings that when folded almost reach the end of the tail.</identification>
+		<image>nz_falcon.jpg</image>
+		<image_220>nz_falcon-220.jpg</image_220>
+		<alt>New Zealand falcon | Kārearea. Adult. East Otago, January 2011. Image © Craig McKenzie by Craig McKenzie</alt>
+		<source>https://nzbirdsonline.org.nz/species/new-zealand-falcon</source>
+	</bird>
+</bird_list>

@@ -1,0 +1,579 @@
+/* define root colors */
+:root {
+  --color-bg: #102542;
+  --color-bg-black: #151515;
+  --color-accent: #f87060;
+  --color-bg-dark-green: #0ac404;
+  --color-bg-green-header: #4e9321;
+  --color-bg-dark-green-hover: #068302;
+  --color-bg-light-green: #77fd723d;
+  --color-bg-accent-dark: #e6fce2;
+  --color-bg-accent-light: #f4ffef;
+  --color-primary: #023047;
+  --color-btn-accent: #00642d;
+  --color-header-active: #72d332;
+  --color-icons: #a01d6b;
+}
+
+/* element level styles */
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
+  color: var(--color-primary);
+}
+
+h1,
+h2,
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1;
+  font-weight: 900;
+  color: white;
+  margin-top: 0;
+}
+
+h4 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 5.2rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+figcaption {
+  text-align: center;
+}
+
+figure {
+  margin: 0;
+}
+
+/* structural and positional styles */
+.content-wrap {
+  max-width: 72rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* hero banner background video adapted from https://youtu.be/Nb1Kjm4oXQI */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero video {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.hero .content-wrap {
+  position: relative;
+  z-index: 15;
+  color: white;
+  text-align: center;
+}
+
+.hero .content-wrap span {
+  color: var(--color-bg-dark-green);
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  z-index: 12;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#hero-text h1 {
+  text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+#btn-catalogue {
+  position: relative;
+  background-color: var(--color-bg-dark-green);
+  padding: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: all 0.4s linear;
+  cursor: pointer;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+#btn-catalogue:hover {
+  background-color: var(--color-bg-dark-green-hover);
+}
+
+/* home categories styling */
+#categories {
+  background: var(--color-bg-black);
+  color: white;
+  padding: 50px 0;
+}
+
+.category-items {
+  padding-bottom: 30px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.scrollable::-webkit-scrollbar {
+  height: 18px;
+}
+
+.scrollable::-webkit-scrollbar-track {
+  background: rgb(134, 218, 134);
+  border-radius: 100vw;
+  margin-block: 2px;
+}
+
+.scrollable::-webkit-scrollbar-thumb {
+  background: rgb(0, 107, 0);
+  border-radius: 100vw;
+  border: 2px solid rgb(134, 218, 134);
+}
+
+.scrollable::-webkit-scrollbar-thumb:hover {
+  background: rgb(0, 77, 0);
+}
+
+.category .bird {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.scrollable {
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+
+.category {
+  margin-bottom: 50px;
+}
+
+/* bird.php styling for the bird view */
+.bird {
+  display: inline-block;
+}
+
+.bird picture {
+  max-width: 220px;
+  height: 150px;
+}
+
+.bird img {
+  transition: margin 0.2s ease-in-out;
+  height: 150px;
+  max-width: 220px;
+}
+
+.bird img:hover {
+  cursor: pointer;
+}
+
+/* header styling */
+header ol {
+  display: inline-block;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+header li {
+  display: inline;
+  margin-right: 50px;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.header {
+  display: flex;
+  align-content: space-between;
+}
+
+a:visited,
+a {
+  color: white;
+}
+
+#header {
+  transition: all 0.2s ease-in-out;
+}
+
+#header.active {
+  position: fixed;
+  background: var(--color-bg-green-header);
+  box-shadow: 0 10px 5px rgba(0, 0, 0, 0.25);
+}
+
+#header {
+  color: white;
+  width: 100%;
+  display: flex;
+}
+
+#header img {
+  width: 150px;
+}
+
+.active-menu a {
+  color: var(--color-header-active);
+}
+
+/* catalogue styling */
+#catalogue {
+  min-height: 100vh;
+  background: url("../assets/images/backgrounds/bg.svg") bottom no-repeat, linear-gradient(180deg, var(--color-bg-accent-dark) 0%, var(--color-bg-accent-light) 15rem, var(--color-bg-accent-light) 100%);
+  background-size: contain;
+  padding-top: 120px;
+}
+
+#catalogue input[type="text"] {
+  padding: 15px;
+  font-size: 1.2rem;
+  width: 600px;
+}
+
+#results-recent {
+  display: flex;
+  gap: 20px;
+}
+
+#results {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+#recent {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  align-items: center;
+  justify-content: start;
+}
+
+#recent .bird {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#results-bar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#results-bar h3 {
+  color: var(--color-primary);
+}
+
+/*adapted from https://stackoverflow.com/questions/14218307/select-arrow-style-change*/
+#search-form select {
+  padding: 15px;
+  font-size: 1.2rem;
+  background: url("../assets/images/icons/chevron.svg") no-repeat right white;
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+  appearance: none;
+  background-position-x: 95%;
+  padding-right: 60px;
+}
+
+#catalogue option {
+  padding: 15px;
+  font-size: 1.2rem;
+  width: 600px;
+}
+
+#search-form label {
+  font-size: 1.2rem;
+}
+
+.btn-search {
+  cursor: pointer;
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  color: white;
+  background-color: var(--color-btn-accent);
+  transition: all 0.4s linear;
+}
+.btn-search:hover {
+  background-color: var(--color-bg-dark-green-hover);
+}
+
+#search-form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+/* footer styling */
+#footer-main {
+  padding-top: 50px;
+  height: 200px;
+  color: white;
+  background: black;
+}
+
+#footer-main p {
+  font-size: 1rem;
+}
+
+#footer-main .content-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+#footer-main #quick-content {
+  display: flex;
+  flex-direction: row;
+}
+
+#form-contact {
+  width: 300px;
+}
+
+#mission {
+  flex-basis: 30%;
+}
+
+#footer-main input {
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.quick-contact,
+.quick-text,
+#form-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+#footer-main li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+#footer-main a {
+  text-decoration: none;
+  transition: all 0.4s linear;
+}
+
+#footer-main a:hover {
+  color: var(--color-bg-dark-green-hover);
+}
+
+#footer-main ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#footer-main h1 {
+  font-size: 1.5rem;
+}
+
+#footer-main img {
+  width: 150px;
+}
+
+#footer-sub {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  background: #004b23;
+  background: url("../assets/images/backgrounds/footer.svg");
+}
+
+footer .content-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* bird card styles */
+/* https://stackoverflow.com/questions/3922739/limit-text-length-to-n-lines-using-css*/
+.information {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.bird-card ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bird-card span {
+  font-weight: 600;
+}
+
+.bird-card h4 {
+  text-decoration: underline;
+}
+
+.bird-card a {
+  color: var(--color-bg);
+}
+
+.bird-card {
+  display: flex;
+  gap: 50px;
+  padding: 20px;
+  border: 2px solid var(--color-primary);
+  box-shadow: 10px 10px 5px rgba(78, 78, 78, 0.5);
+  border-radius: 30px;
+  background-color: white;
+  margin-bottom: 40px;
+}
+
+.icon-layout {
+  display: flex;
+  gap: 20px;
+}
+
+.icon-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-box img {
+  height: 30px;
+  width: 30px;
+}
+
+.icon-box span {
+  font-size: 0.8rem;
+}
+
+.icon {
+  fill: var(--color-icons);
+}
+
+/* species styling */
+#img-stat figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 470px;
+  margin: auto;
+}
+
+#img-stat img {
+  max-width: 470px;
+}
+
+#img-stat figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
+/* scroll down effect adapted from https://youtu.be/Zp71tUvLpcI*/
+#scroll-down {
+  position: absolute;
+  color: white;
+  z-index: 15;
+  left: 50px;
+  bottom: 200px;
+  text-transform: uppercase;
+}
+
+#scroll-down::after {
+  position: absolute;
+  content: "";
+  width: 1px;
+  background: white;
+  height: 200px;
+  left: 50px;
+  top: 50px;
+}
+
+#scroll-down {
+  animation: reveal 1s ease-out 1.5s backwards;
+}
+
+#scroll-down span:first-child {
+  animation-delay: 3s;
+}
+#scroll-down span:nth-child(2) {
+  animation-delay: 3.1s;
+}
+#scroll-down span:nth-child(3) {
+  animation-delay: 3.2s;
+}
+#scroll-down span:nth-child(4) {
+  animation-delay: 3.3s;
+}
+#scroll-down span:nth-child(5) {
+  animation-delay: 3.4s;
+}
+#scroll-down span:nth-child(6) {
+  animation-delay: 3.5s;
+}
+
+#scroll-down > span {
+  animation: scroll 5s ease-in-out infinite;
+  display: inline-block;
+  margin: 0 1px;
+}
+
+@keyframes scroll {
+  0%,
+  10% {
+    transform: none;
+    opacity: 1;
+    color: white;
+  }
+
+  1%,
+  8% {
+    transform: translateY(-2px);
+    color: var(--color-bg-dark-green-hover);
+  }
+
+  4% {
+    transform: translateY(3px);
+    opacity: 1;
+    color: white;
+  }
+}
