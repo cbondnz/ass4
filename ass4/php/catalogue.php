@@ -4,12 +4,11 @@ ini_set('display_errors', TRUE);
 ini_set('display_startup_errors', TRUE);
 ?>
 
-<?php
-include('../php/classes/bird.php')
+<!-- Import the bird class -->
+<?php include('../php/classes/bird.php')?>
 
-
-?>
-
+<!-- Check if the $_GET variables are set. These will be set if a user is searching for a bird or
+selecting a sort option from the sorting feature -->
 <?php
     $sort = null;
     $search = null;
@@ -21,6 +20,7 @@ include('../php/classes/bird.php')
     }
 ?> 
 
+<!-- Open the birds.xml file and search for birds based on the search phrases that the user has typed in the search box -->
 <?php
 if(file_exists('../xml/birds.xml')){
     $birds = simplexml_load_file(('../xml/birds.xml'));
@@ -30,19 +30,25 @@ if(file_exists('../xml/birds.xml')){
         //bird[contains(translate(scientific_name, 'ABCDEFGHJIKLMNOPQRSTUVWXYZ', 'abcdefghjiklmnopqrstuvwxyz'), '$search')] 
         " 
     );
-    //$results = $birds->xpath("//bird[contains(translate(.,'$search'), '$search')]");        
+    
+    // Set the count variable for the number of results from the search operation 
     $count = count($results);
 
+    // Create an array to hold invidiual bird objects which are created from the bird.php class
     $bird_array = array();
-    foreach ($results as $result)
-    {
-        $identification = $result->identification;
 
+    // Loop through each bird in the birds.xml file
+    foreach ($results as $result)
+    {        
+        // Create an array to hold the paragraph objects that are embedded in the birds.xml 
+        // file. These paragraphs appear in the identification description for each bird
+        $identification = $result->identification;
         $array = array();
         foreach($identification->paragraph as $obj){
             array_push($array, (string)$obj);
         }
 
+        // Create a bird 
         $bird = new Bird(
             $result->english_name,
             $result->maori_name,
@@ -67,47 +73,47 @@ if(file_exists('../xml/birds.xml')){
             $result->breeding,
             $result->egg_laying
         );
+        
+        // Push the bird object into the bird array
         array_push($bird_array, $bird);
     }
 
-    if($sort == 'english'){
-        usort($bird_array, function($a, $b){
-            return strcmp($a->get_english_name(), $b->get_english_name());
-        });
+    // Sort the bird array based on what has been selected in the sort dropdown box
+    switch ($sort) {
+        case 'english':
+            usort($bird_array, function($a, $b){
+                return strcmp($a->get_english_name(), $b->get_english_name());
+            });
+            break;
+        case 'maori':
+            usort($bird_array, function($a, $b){
+                return strcmp($a->get_maori_name(), $b->get_maori_name());
+            });
+            break;
+        case 'consv':
+            usort($bird_array, function($a, $b){
+                return strcmp($a->get_conservation_status(), $b->get_conservation_status());
+            });
+            break;
+        case 'weight':
+            usort($bird_array, function($a, $b){
+                return $a->get_lower_weight() - $b->get_lower_weight();
+            });
+            break;
+        case 'length':
+            usort($bird_array, function($a, $b){
+                return $a->get_lower_length() - $b->get_lower_length();
+            });
+            break;
+        default:
+            break;
     }
-
-    if($sort == 'maori'){
-        usort($bird_array, function($a, $b){
-            return strcmp($a->get_maori_name(), $b->get_maori_name());
-        });
-    }
-
-    if($sort == 'consv'){
-        usort($bird_array, function($a, $b){
-            return strcmp($a->get_conservation_status(), $b->get_conservation_status());
-        });
-    }
-
-    if($sort == 'weight'){
-        usort($bird_array, function($a, $b){
-            return $a->get_lower_weight() - $b->get_lower_weight();
-        });
-    }
-
-    if($sort == 'length'){
-        usort($bird_array, function($a, $b){
-            return $a->get_lower_length() - $b->get_lower_length();
-        });
-    }
-
-    
-
-
 }else{
     exit('Failed to open birds.xml');
 }
 ?>
 
+<!-- Get the cookie that holds an array of recently viewed birds -->
 <?php
   $data_avail = false;
   if(isset($_COOKIE['recent'])){
@@ -118,9 +124,6 @@ if(file_exists('../xml/birds.xml')){
     $recent = json_decode($_COOKIE['recent'], true);
   }   
 ?>
-
-
-
 <!DOCTYPE html>
 <html lang="en">
   <!-- page header -->
@@ -132,10 +135,12 @@ if(file_exists('../xml/birds.xml')){
     <title>New Zealand Native Bird Catalogue - Explore and learn about New Zealand native birds.</title>
     <!-- link to external CSS file-->
     <link rel="stylesheet" href="../css/stylesheet.css" />
+    <!-- favicon -->
     <link rel="shortcut icon" type="image/jpg" href="../assets/images/icons/favicon-32x32.png"/>
   </head>
   <!-- page body -->
   <body class="theme-light">
+    <!-- header with navigation links and site logo -->
     <?php 
     $active = "catalogue";
     $logo_href = "../index.php";
@@ -144,9 +149,11 @@ if(file_exists('../xml/birds.xml')){
     $contact = "contact.php";
     $catalogue = "catalogue.php";
     include("../php/components/header.php")?>
+
     <!-- main content -->
     <main id="catalogue" class="home">
         <div class="content-wrap">
+            <!-- search inbox box and sorting drop down list -->
             <form method="GET" action="catalogue.php" id="search-form">
                 <div>
                     <input type="text" placeholder="Search for a bird by name..." name="search" value=<?php echo isset($_GET['search']) ? htmlspecialchars($_GET['search'], ENT_QUOTES) : ''; ?>>
@@ -163,23 +170,15 @@ if(file_exists('../xml/birds.xml')){
                     </select>
                 </div>
             </form>
+            <!-- Results bar to indicate how many birds were found in the search -->
             <section id="results-bar">
-                <h4><?php 
-                    if($search){
-                        
-                        
-                        echo "Found $count birds";
-                    }                    
-                ?></h4>
-
-                
-
+                <h4><?php if($search){echo "Found $count birds";}?></h4>     
             </section>
+            <!-- Search results -->
             <section id="results-recent">
                 <div id="results">
-                    <?php            
-                       
-                       if($search){
+                    <?php           
+                        if($search){
                             foreach ($bird_array as $result) {
                                 $src = $result->get_image();
                                 $alt = $result->get_alt();
@@ -192,17 +191,18 @@ if(file_exists('../xml/birds.xml')){
                                 $weight = $result->get_weight();
                                 $length = $result->get_length();
                                 $classification = $result->get_classification();
+                                $icon_box = $result->get_icon_box();
                                 include("./components/bird_card.php");
                             }
                        }                        
                     ?>
                 </div> 
+                <!-- Recently viewed birds (max 5) -->
                 <aside id="recent">
                     <h4>Recently Viewed</h4>
                     <?php
                         if(!$data_avail){
                             echo "<p>No recent history available</p>";
-
                         }else{
                             foreach ($recent as $bird_id) {
                                 $results = $birds->xpath("//bird[bird_id='$bird_id']");  
@@ -222,15 +222,14 @@ if(file_exists('../xml/birds.xml')){
             </section>        
         </div>
     </main>
+    <!-- Footer -->
     <?php 
         $src = "../assets/images/icons/logo.svg";
         $home = "../index.php";
         $catalogue = "catalogue.php";
         $contact = "contact.php";
-        include("./components/footer.php")?>       
-  </body>
+        include("./components/footer.php")?>    
   </body>
 </html>
-
-    <!-- link to external Javascript file-->
-    <script src="../js/main.js" type="application/javascript"></script>
+<!-- link to external Javascript file-->
+<script src="../js/main.js" type="application/javascript"></script>

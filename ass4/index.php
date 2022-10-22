@@ -4,6 +4,7 @@ ini_set('display_errors', TRUE);
 ini_set('display_startup_errors', TRUE);
 ?>
 
+<!-- Open the birds.xml file -->
 <?php
 if(file_exists('./xml/birds.xml')){
     $birds = simplexml_load_file(('./xml/birds.xml'));
@@ -12,6 +13,7 @@ if(file_exists('./xml/birds.xml')){
 }
 ?>
 
+<!-- Get the cookie that holds an array of recently viewed birds -->
 <?php
   $data_avail = false;
   if(isset($_COOKIE['recent'])){
@@ -22,7 +24,6 @@ if(file_exists('./xml/birds.xml')){
     $recent = json_decode($_COOKIE['recent'], true);
   }   
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -35,10 +36,12 @@ if(file_exists('./xml/birds.xml')){
     <title>New Zealand Native Bird Catalogue - Explore and learn about New Zealand native birds.</title>
     <!-- link to external CSS file-->
     <link rel="stylesheet" href="./css/stylesheet.css" />
+    <!-- favicon -->
     <link rel="shortcut icon" type="image/jpg" href="./assets/images/icons/favicon-32x32.png"/>
   </head>
   <!-- page body -->
   <body class="theme-light">
+  <!-- header -->
   <?php 
     $active = "home";
     $logo_href = "index.php";
@@ -47,8 +50,10 @@ if(file_exists('./xml/birds.xml')){
     $contact = "./php/contact.php";
     $catalogue = "./php/catalogue.php";
     include("./php/components/header.php")?>
+
     <!-- main content -->
-    <main id="app" class="home">    
+    <main id="app" class="home">
+        <!-- main hero section with infinite looping video of tranquil forest scene -->
         <section class="hero">
             <video loop muted autoplay preload="auto">
                 <source src="./assets/video/video.mp4" type="video/mp4">
@@ -58,9 +63,9 @@ if(file_exists('./xml/birds.xml')){
                 <p>Explore and learn about the native birds of New Zealand.</p>
                 <form action="./php/catalogue.php" method="POST">
                     <input id="btn-catalogue" value="Go to Catalogue" type="submit"/>
-                </form>
-                
+                </form>                
             </div>
+            <!-- scroll down alert on the left of the screen -->
             <div id="scroll-down">                
                 <span>S</span>
                 <span>c</span>
@@ -70,14 +75,15 @@ if(file_exists('./xml/birds.xml')){
                 <span>l</span>
             </div>
         </section> 
+        <!-- Section for the different bird categories -->
         <section id="categories">
-            <div class="content-wrap">  
-            <section class="category">                
+            <div class="content-wrap"> 
+                <!-- Recently viewed birds -->
+                <section class="category">                
                     <h3>Recently Viewed</h3>
                     <?php
                         if(!$data_avail){
                             echo "<p>No recent history available</p>";
-
                         }else{
                             foreach ($recent as $bird_id) {
                                 $results = $birds->xpath("//bird[bird_id='$bird_id']");  
@@ -94,6 +100,7 @@ if(file_exists('./xml/birds.xml')){
                         }
                     ?>        
                 </section>
+                <!-- Threatended and at risk species section -->
                 <section class="category">
                     <h3>Threatened & At Risk Species</h3>
                     <?php 
@@ -125,6 +132,7 @@ if(file_exists('./xml/birds.xml')){
                         ?>                          
                     </div>
                 </section>
+                <!-- Land birds section -->
                 <section class="category">
                     <h3>Land Birds</h3>
                     <?php 
@@ -149,6 +157,7 @@ if(file_exists('./xml/birds.xml')){
                         ?>                          
                     </div>
                 </section>
+                <!-- Flightless land birds section -->
                 <section class="category">
                     <h3>Flightless Land Birds</h3>
                     <?php 
@@ -173,6 +182,7 @@ if(file_exists('./xml/birds.xml')){
                         ?>                          
                     </div>
                 </section>
+                <!-- Wetland birds section -->
                 <section class="category">
                     <h3>Wetland Birds</h3>
                     <?php 
@@ -197,6 +207,7 @@ if(file_exists('./xml/birds.xml')){
                         ?>                          
                     </div>
                 </section>
+                <!-- Seabirds section -->
                 <section class="category">
                     <h3>Seabirds</h3>
                     <?php 
@@ -224,6 +235,7 @@ if(file_exists('./xml/birds.xml')){
             </div>            
         </section>  
     </main>
+    <!-- Footer -->
     <?php 
         $src = "./assets/images/icons/logo.svg";
         $home = "index.php";
@@ -232,6 +244,5 @@ if(file_exists('./xml/birds.xml')){
         include("./php/components/footer.php")?>       
   </body>
 </html>
-
 <!-- link to external Javascript file-->
 <script src="./js/main.js" ></script>

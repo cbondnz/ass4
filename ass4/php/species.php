@@ -4,32 +4,35 @@ ini_set('display_errors', TRUE);
 ini_set('display_startup_errors', TRUE);
 ?>
 
+<!-- Open the birds.xml file -->
 <?php
-if(file_exists('../xml/birds.xml')){
-    $birds = simplexml_load_file(('../xml/birds.xml'));
-}else{
-    exit('Failed to open birds.xml');
-}
+  if(file_exists('../xml/birds.xml')){
+      $birds = simplexml_load_file(('../xml/birds.xml'));
+  }else{
+      exit('Failed to open birds.xml');
+  }
 ?>
+<!-- Import the bird class -->
 
-<?php
-include('../php/classes/bird.php')
+<?php include('../php/classes/bird.php')?>
 
-
-?>
-
+<!-- Get the bird_id passed in from the $_GET request and extract
+the information for that bird from the birds.xml file -->
 <?php
     $bird_id = $_GET["bird_id"];
     $results = $birds->xpath("//bird[bird_id='$bird_id']");
-    //var_dump($results);
-    foreach($results as $result){
-      $identification = $result->identification;
 
+     // Loop through each bird in the birds.xml file 
+    foreach($results as $result){
+      // Create an array to hold the paragraph objects that are embedded in the birds.xml 
+      // file. These paragraphs appear in the identification description for each bird
+      $identification = $result->identification;
       $array = array();
       foreach($identification->paragraph as $obj){
         array_push($array, (string)$obj);
       }
   
+      // Create a bird 
       $bird = new Bird(
         $result->english_name,
         $result->maori_name,
@@ -57,6 +60,9 @@ include('../php/classes/bird.php')
     }
 ?>
 
+<!-- Retrieve the cookie if there is one set, push the 
+bird onto the array. If the array lenght is > 5 then pop
+a bird off the end of the array -->
 <?php
   if(isset($_COOKIE['recent'])){
     // Cookie available
@@ -82,7 +88,6 @@ include('../php/classes/bird.php')
   }    
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
   <!-- page header -->
@@ -94,10 +99,12 @@ include('../php/classes/bird.php')
     <title><?php echo $english_name; echo $maori_name != "" ? " | $maori_name" : "" ;?></title>
     <!-- link to external CSS file-->
     <link rel="stylesheet" href="../css/stylesheet.css" />
+    <!-- favicon -->
     <link rel="shortcut icon" type="image/jpg" href="../assets/images/icons/favicon-32x32.png"/>
   </head>
   <!-- page body -->
   <body class="theme-light">
+  <!-- header with navigation links and site logo -->
   <?php 
     $active = "species";
     $logo_href = "../index.php";
@@ -106,16 +113,22 @@ include('../php/classes/bird.php')
     $contact = "contact.php";
     $catalogue = "catalogue.php";
     include("../php/components/header.php")?>
+
     <!-- main content -->
     <main id="species" class="home">
       <div class="content-wrap">
+        <!-- name of the bird -->
         <h2><?php echo $bird->get_english_name();?></h2>
+
         <!-- bird image and statistics section -->
         <section id="img-stat">
+          <!-- bird image -->
           <figure id="image">
             <img src="<?php echo "../assets/images/birds/470_".$bird->get_image();?>" alt="<?php echo $bird->get_alt();?>" />
             <figcaption><?php echo $bird->get_alt();?></figcaption>
           </figure>
+
+          <!-- bird statistics box -->
           <aside id="statistics">              
             <ul>
                 <?php echo $bird->get_scientific_name_box();?> 
@@ -130,16 +143,19 @@ include('../php/classes/bird.php')
             <?php echo $bird->get_icon_box();?>               
           </aside>
         </section>
+
         <!-- bird information section -->
         <section>
           <h3>Information</h3>          
           <p><?php echo $bird->get_information();?></p>
         </section>
+
         <!-- bird identification section -->
         <section id="identification">
           <h3>Identification</h3>
           <?php echo $bird->get_identification();?>
         </section>
+
         <!-- breeding season table -->
         <section id="breeding">
           <h3>Breeding season</h3>
@@ -149,12 +165,11 @@ include('../php/classes/bird.php')
           </div>
           <table>
             <tr>
-            <?php 
-            echo $bird->get_breeding();
-            ?>                          
+            <?php echo $bird->get_breeding();?>                          
             </tr>
           </table>
         </section>
+
         <!-- Egg laying season table -->
         <section id="egg_laying">
           <h3>Egg Laying season</h3>
@@ -164,14 +179,13 @@ include('../php/classes/bird.php')
           </div>
           <table>
             <tr>
-            <?php 
-            echo $bird->get_egg_laying();
-            ?>                          
+            <?php echo $bird->get_egg_laying();?>                          
             </tr>
           </table>
         </section>
       </div>    
     </main>
+    <!-- footer -->
     <?php 
         $src = "../assets/images/icons/logo.svg";
         $home = "../index.php";
@@ -181,4 +195,4 @@ include('../php/classes/bird.php')
   </body>
 </html>
 <!-- link to external Javascript file-->
-<script src="./js/main.js" ></script>
+<script src="../js/main.js" ></script>

@@ -1,4 +1,9 @@
 <?php
+
+/**
+ * Bird Class
+ * This class holds all the information for a bird
+ */
 class Bird {
     // Properties
     private $english_name;
@@ -126,7 +131,6 @@ class Bird {
     function get_maori_name_box(){
         return $this->maori_name !="" ? "<li><span>Māori Name: </span> $this->maori_name</li>" : "";
     }
-
     function get_scientific_name_box(){
         return "<li><span>Scientific Name: </span>$this->scientific_name</li>";
     }
@@ -141,8 +145,22 @@ class Bird {
     }
     function get_other_names_box(){
         return "<li><span>Other Names: </span>$this->other_names</li>";
-    }
+    }   
     
+    function get_breeding(){
+        return $this->parse_months($this->breeding);
+    }
+    function get_egg_laying(){
+        return $this->parse_months($this->egg_laying);
+    }
+
+    /**
+     * parse_months($string)
+     * This method takes a string which consists of space seperated
+     * 3 letter month values. It parses this string using a space as the delimeter
+     * then checks for the existence of the month in the array and 
+     * sets the class attribute to 'active' if the month is present or blank if it is not
+     */
     function parse_months($string){
         $array = explode(" ",  $string);
         $row = "";
@@ -160,13 +178,12 @@ class Bird {
         in_array("Dec", $array) ? $row.="<td class='active'>Dec</td>" : $row.="<td>Dec</td>";
         return $row;
     }
-    
-    function get_breeding(){
-        return $this->parse_months($this->breeding);
-    }
-    function get_egg_laying(){
-        return $this->parse_months($this->egg_laying);
-    }
+
+    /**
+     * get_icon_box()
+     * This method gets the classification of the bird (Seabird, Land, Flightless, Wetland)
+     * and creates an HTML component with the relevant icon
+     */
     function get_icon_box(){
         $classificaton_icon = "";
         if($this->classification == 'Seabird'){
@@ -195,6 +212,12 @@ class Bird {
                 </div>";
     }
 
+    /**
+     * get_conservation_status_box()
+     * This method takes the conservation status for the bird and determines which of
+     * 3 categories it fits in (green, orange, or red) and tags the class attribute
+     * accordingly, returning an HTML component
+     */
     function get_conservation_status_box(){
         $result = $this->conservation_status;
         if (
@@ -223,8 +246,5 @@ class Bird {
 
         return $result;
     }
-
 }
-
-
 ?>
