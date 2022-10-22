@@ -1,7 +1,7 @@
 <div class="bird-card">
     <picture>
         <a href="./species.php?bird_id=<?php echo $bird_id?>">
-            <img src="../assets/images/birds/<?php echo $src?>" alt="<?php echo $alt?>" />
+            <img src="../assets/images/birds/220_<?php echo $src?>" alt="<?php echo $alt?>" />
         </a>        
     </picture>
     <div>

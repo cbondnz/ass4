@@ -1,3 +1,6 @@
-if (!!window.performance && window.performance.navigation.type == 2) {
+/**
+ * Forces the page to reload so that the recently viewed birds section is re
+ */
+if (!!window.performance) {
   window.location.reload();
 }

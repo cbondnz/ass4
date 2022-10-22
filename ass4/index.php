@@ -39,9 +39,16 @@ if(file_exists('./xml/birds.xml')){
   </head>
   <!-- page body -->
   <body class="theme-light">
-    
+  <?php 
+    $active = "home";
+    $logo_href = "index.php";
+    $logo_src = "./assets/images/icons/logo.svg";
+    $home = "index.php";
+    $contact = "./php/contact.php";
+    $catalogue = "./php/catalogue.php";
+    include("./php/components/header.php")?>
     <!-- main content -->
-    <main id="app" class="home">
+    <main id="app" class="home">    
         <section class="hero">
             <video loop muted autoplay preload="auto">
                 <source src="./assets/video/video.mp4" type="video/mp4">
@@ -78,9 +85,9 @@ if(file_exists('./xml/birds.xml')){
                                     $caption = $result->english_name;
                                     $bird_id = $result->bird_id;
                                     $bird_id = "./php/species.php?bird_id=".$bird_id;
-                                    $src = $result->image_220;
+                                    $src = $result->image;
                                     $alt = $result->alt;
-                                    $src = "./assets/images/birds/$src";
+                                    $src = "./assets/images/birds/220_$src";
                                     include("./php/components/bird.php");
                                 }
                             }
@@ -109,9 +116,10 @@ if(file_exists('./xml/birds.xml')){
                             foreach ($results as $result) {
                                 $caption = $result->english_name;
                                 $bird_id = $result->bird_id;
-                                $src = $result->image_220;
+                                $bird_id = "./php/species.php?bird_id=".$bird_id;
+                                $src = $result->image;
                                 $alt = $result->alt;
-                                $src = "./assets/images/birds/$src";  
+                                $src = "./assets/images/birds/220_$src";  
                                 include("php/components/bird.php");
                             }
                         ?>                          
@@ -132,9 +140,10 @@ if(file_exists('./xml/birds.xml')){
                             foreach ($results as $result) {
                                 $caption = $result->english_name;
                                 $bird_id = $result->bird_id;
-                                $src = $result->image_220;
+                                $bird_id = "./php/species.php?bird_id=".$bird_id;
+                                $src = $result->image;
                                 $alt = $result->alt;
-                                $src = "./assets/images/birds/$src";                           
+                                $src = "./assets/images/birds/220_$src";                           
                                 include("php/components/bird.php");
                             }
                         ?>                          
@@ -155,9 +164,10 @@ if(file_exists('./xml/birds.xml')){
                             foreach ($results as $result) {
                                 $caption = $result->english_name;
                                 $bird_id = $result->bird_id;
-                                $src = $result->image_220;
+                                $bird_id = "./php/species.php?bird_id=".$bird_id;
+                                $src = $result->image;
                                 $alt = $result->alt;
-                                $src = "./assets/images/birds/$src";  
+                                $src = "./assets/images/birds/220_$src";  
                                 include("php/components/bird.php");
                             }
                         ?>                          
@@ -178,9 +188,10 @@ if(file_exists('./xml/birds.xml')){
                             foreach ($results as $result) {
                                 $caption = $result->english_name;
                                 $bird_id = $result->bird_id;
-                                $src = $result->image_220;
+                                $bird_id = "./php/species.php?bird_id=".$bird_id;
+                                $src = $result->image;
                                 $alt = $result->alt;
-                                $src = "./assets/images/birds/$src";  
+                                $src = "./assets/images/birds/220_$src";  
                                 include("php/components/bird.php");
                             }
                         ?>                          
@@ -201,9 +212,10 @@ if(file_exists('./xml/birds.xml')){
                             foreach ($results as $result) {
                                 $caption = $result->english_name;
                                 $bird_id = $result->bird_id;
-                                $src = $result->image_220;
+                                $bird_id = "./php/species.php?bird_id=".$bird_id;
+                                $src = $result->image;
                                 $alt = $result->alt;
-                                $src = "./assets/images/birds/$src";  
+                                $src = "./assets/images/birds/220_$src";  
                                 include("php/components/bird.php");
                             }
                         ?>                          
@@ -211,13 +223,13 @@ if(file_exists('./xml/birds.xml')){
                 </section>
             </div>            
         </section>  
-        <?php 
+    </main>
+    <?php 
         $src = "./assets/images/icons/logo.svg";
         $home = "index.php";
         $catalogue = "./php/catalogue.php";
         $contact = "./php/contact.php";
         include("./php/components/footer.php")?>       
-    </main>
   </body>
 </html>
 

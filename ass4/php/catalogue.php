@@ -17,19 +17,32 @@ include('../php/classes/bird.php')
         $sort = $_GET['bird-sort'];
     }
     if(isset($_GET['search'])){
-        $search = $_GET['search'];    
+        $search = strtolower($_GET['search']);    
     }
 ?> 
 
 <?php
 if(file_exists('../xml/birds.xml')){
     $birds = simplexml_load_file(('../xml/birds.xml'));
-    $results = $birds->xpath("//bird[contains(english_name, '$search')] | //bird[contains(maori_name, '$search')] | //bird[contains(scientific_name, '$search')]");        
+    $results  = $birds->xpath(
+        "//bird[contains(translate(english_name, 'ABCDEFGHJIKLMNOPQRSTUVWXYZ', 'abcdefghjiklmnopqrstuvwxyz'), '$search')] | 
+        //bird[contains(translate(maori_name, 'ABCDEFGHJIKLMNOPQRSTUVWXYZĀĒĪŌŪ', 'abcdefghjiklmnopqrstuvwxyzāēīōū'), '$search')] |
+        //bird[contains(translate(scientific_name, 'ABCDEFGHJIKLMNOPQRSTUVWXYZ', 'abcdefghjiklmnopqrstuvwxyz'), '$search')] 
+        " 
+    );
+    //$results = $birds->xpath("//bird[contains(translate(.,'$search'), '$search')]");        
     $count = count($results);
 
     $bird_array = array();
     foreach ($results as $result)
     {
+        $identification = $result->identification;
+
+        $array = array();
+        foreach($identification->paragraph as $obj){
+            array_push($array, (string)$obj);
+        }
+
         $bird = new Bird(
             $result->english_name,
             $result->maori_name,
@@ -47,11 +60,12 @@ if(file_exists('../xml/birds.xml')){
             $result->upper_weight,
             $result->bird_id,
             $result->information,
-            $result->identification,
+            $array,
             $result->image,
-            $result->image_220,
             $result->alt,
-            $result->source
+            $result->source,
+            $result->breeding,
+            $result->egg_laying
         );
         array_push($bird_array, $bird);
     }
@@ -118,16 +132,17 @@ if(file_exists('../xml/birds.xml')){
     <title>New Zealand Native Bird Catalogue - Explore and learn about New Zealand native birds.</title>
     <!-- link to external CSS file-->
     <link rel="stylesheet" href="../css/stylesheet.css" />
+    <link rel="shortcut icon" type="image/jpg" href="../assets/images/icons/favicon-32x32.png"/>
   </head>
   <!-- page body -->
   <body class="theme-light">
     <?php 
     $active = "catalogue";
-    $logo_href = "./index.php";
+    $logo_href = "../index.php";
     $logo_src = "../assets/images/icons/logo.svg";
-    $home = "./index.php";
+    $home = "../index.php";
     $contact = "contact.php";
-    $catalogu = "catalogue.php";
+    $catalogue = "catalogue.php";
     include("../php/components/header.php")?>
     <!-- main content -->
     <main id="catalogue" class="home">
@@ -143,8 +158,8 @@ if(file_exists('../xml/birds.xml')){
                         <option value="english" <?php echo isset($_GET['bird-sort']) && $_GET['bird-sort'] == "english" ? "selected" : ''; ?>>English Name</option>
                         <option value="maori" <?php echo isset($_GET['bird-sort']) && $_GET['bird-sort'] == "maori" ? "selected" : ''; ?>>Māori Name</option>
                         <option value="consv" <?php echo isset($_GET['bird-sort']) && $_GET['bird-sort'] == "consv" ? "selected" : ''; ?>>Conservation Status</option>
-                        <option value="weight" <?php echo isset($_GET['bird-sort']) && $_GET['bird-sort'] == "weight" ? "selected" : ''; ?>>Weight</option>
-                        <option value="length" <?php echo isset($_GET['bird-sort']) && $_GET['bird-sort'] == "length" ? "selected" : ''; ?>>Length</option>
+                        <option value="weight" <?php echo isset($_GET['bird-sort']) && $_GET['bird-sort'] == "weight" ? "selected" : ''; ?>>Weight (low to high)</option>
+                        <option value="length" <?php echo isset($_GET['bird-sort']) && $_GET['bird-sort'] == "length" ? "selected" : ''; ?>>Length (low to high)</option>
                     </select>
                 </div>
             </form>
@@ -166,7 +181,7 @@ if(file_exists('../xml/birds.xml')){
                        
                        if($search){
                             foreach ($bird_array as $result) {
-                                $src = $result->get_image_220();
+                                $src = $result->get_image();
                                 $alt = $result->get_alt();
                                 $bird_id = $result->get_bird_id();
                                 $english_name = $result->get_english_name();
@@ -195,9 +210,9 @@ if(file_exists('../xml/birds.xml')){
                                     $caption = $result->english_name;
                                     $bird_id = $result->bird_id;
                                     $bird_id = "./species.php?bird_id=".$bird_id;
-                                    $src = $result->image_220;
+                                    $src = $result->image;
                                     $alt = $result->alt;
-                                    $src = "../assets/images/birds/$src";
+                                    $src = "../assets/images/birds/220_$src";
                                     include("./components/bird.php");
                                 }
                             }
@@ -207,6 +222,13 @@ if(file_exists('../xml/birds.xml')){
             </section>        
         </div>
     </main>
+    <?php 
+        $src = "../assets/images/icons/logo.svg";
+        $home = "../index.php";
+        $catalogue = "catalogue.php";
+        $contact = "contact.php";
+        include("./components/footer.php")?>       
+  </body>
   </body>
 </html>
 

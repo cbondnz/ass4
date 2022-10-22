@@ -11,7 +11,10 @@
   --color-bg-accent-light: #f4ffef;
   --color-primary: #023047;
   --color-btn-accent: #00642d;
+  --color-orange: #c27400;
+  --color-red: #a10000;
   --color-header-active: #72d332;
+  --color-inactive-table: #b4b4b4;
   --color-icons: #a01d6b;
 }
 
@@ -64,7 +67,7 @@ figure {
 
 /* structural and positional styles */
 .content-wrap {
-  max-width: 72rem;
+  max-width: 80rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -166,8 +169,8 @@ figure {
 }
 
 .category .bird {
-  margin-left: 8px;
-  margin-right: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .scrollable {
@@ -200,6 +203,11 @@ figure {
 }
 
 /* header styling */
+#header {
+  z-index: 20;
+  position: relative;
+}
+
 header ol {
   display: inline-block;
   color: white;
@@ -214,12 +222,13 @@ header li {
 
 header a {
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
-.header {
-  display: flex;
-  align-content: space-between;
+header img {
+  vertical-align: middle;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 a:visited,
@@ -233,8 +242,15 @@ a {
 
 #header.active {
   position: fixed;
-  background: var(--color-bg-green-header);
+  background: var(--color-btn-accent);
   box-shadow: 0 10px 5px rgba(0, 0, 0, 0.25);
+}
+
+#header .content-wrap {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
 }
 
 #header {
@@ -249,6 +265,10 @@ a {
 
 .active-menu a {
   color: var(--color-header-active);
+  text-decoration-color: var(--color-header-active);
+  text-decoration-line: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 6px;
 }
 
 /* catalogue styling */
@@ -487,13 +507,22 @@ footer .content-wrap {
 }
 
 /* species styling */
+#species h1 {
+  color: var(--color-bg);
+}
+
+#img-stat {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
 #img-stat figure {
   border: thin #c0c0c0 solid;
   display: flex;
   flex-flow: column;
   padding: 5px;
   max-width: 470px;
-  margin: auto;
 }
 
 #img-stat img {
@@ -506,6 +535,118 @@ footer .content-wrap {
   font: italic smaller sans-serif;
   padding: 3px;
   text-align: center;
+}
+
+#species {
+  min-height: 100vh;
+  background: url("../assets/images/backgrounds/bg.svg") bottom no-repeat, linear-gradient(180deg, var(--color-bg-accent-dark) 0%, var(--color-bg-accent-light) 15rem, var(--color-bg-accent-light) 100%);
+  background-size: contain;
+  padding-top: 120px;
+}
+
+#species {
+  font-size: 1.2rem;
+}
+
+#species p {
+  font-size: 1.2rem;
+}
+
+#species h2,
+#species h3 {
+  color: var(--color-bg);
+}
+
+.consv-green,
+.consv-orange,
+.consv-red {
+  font-weight: 900;
+}
+
+.consv-green {
+  color: var(--color-btn-accent);
+}
+
+.consv-orange {
+  color: var(--color-orange);
+}
+
+.consv-red {
+  color: var(--color-red);
+}
+
+#img-stat .image {
+  justify-content: start;
+}
+
+#statistics ul {
+  margin: 0;
+  padding: 0;
+}
+
+#statistics li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+#statistics li span {
+  font-weight: 900;
+}
+table {
+  border-collapse: collapse;
+}
+
+td {
+  padding: 15px;
+  font-size: 1rem;
+  border: 1px solid var(--color-bg);
+  background-color: var(--color-inactive-table);
+  color: white;
+}
+
+td.active {
+  background-color: var(--color-icons);
+}
+
+#egg_laying {
+  padding-bottom: 100px;
+}
+
+#breeding {
+  margin-bottom: 1em;
+}
+
+#legend {
+  margin-bottom: 10px;
+}
+
+/* contact us styling */
+.contact-wrap {
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact {
+  min-height: 100vh;
+  background: url("../assets/images/backgrounds/bg.svg") bottom no-repeat, linear-gradient(180deg, var(--color-bg-accent-dark) 0%, var(--color-bg-accent-light) 15rem, var(--color-bg-accent-light) 100%);
+  background-size: contain;
+  padding-top: 120px;
+}
+
+#contact h1 {
+  color: var(--color-bg);
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-form input {
+  padding: 15px;
+  font-size: 1.2rem;
+  width: 400px;
 }
 
 /* scroll down effect adapted from https://youtu.be/Zp71tUvLpcI*/

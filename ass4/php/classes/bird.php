@@ -19,9 +19,10 @@ class Bird {
     private $information;
     private $identification;
     private $image;
-    private $image_220;
     private $alt;
     private $source;
+    private $breeding;
+    private $egg_laying;
 
     // Constructor
     function __construct(
@@ -43,9 +44,10 @@ class Bird {
         $information, 
         $identification,
         $image,
-        $image_220, 
         $alt, 
-        $source
+        $source,
+        $breeding,
+        $egg_laying
         ){
         $this->english_name=$english_name;
         $this->maori_name=$maori_name;
@@ -65,66 +67,160 @@ class Bird {
         $this->information=$information;
         $this->identification=$identification;
         $this->image=$image;
-        $this->image_220=$image_220;
         $this->alt=$alt;
         $this->source=$source;
+        $this->breeding=$breeding;
+        $this->egg_laying=$egg_laying;
     }
 
     // Getters and setters
     function get_english_name(){
-        $result = $this->english_name;
-        return $result;
+        return $this->english_name;
     }
     function get_maori_name(){
-        $result = $this->maori_name;
-        return $result;
+        return $this->maori_name;
     }
     function get_scientific_name(){
-        $result = $this->scientific_name;
-        return $result;
+        return $this->scientific_name;
     }
     function get_src(){
-        $result = $this->source;
-        return $result;
+        return $this->source;
     }
     function get_alt(){
-        $result = $this->alt;
-        return $result;
+        return $this->alt;
     }
     function get_bird_id(){
-        $result = $this->bird_id;
-        return $result;
+        return $this->bird_id;
     }
     function get_conservation_status(){
-        $result = $this->conservation_status;
-        return $result;
+        return $this->conservation_status;
     }
     function get_information(){
-        $result = $this->information;
-        return $result;
+        return $this->information;
+    }
+    function get_identification(){
+        $array = "";
+        foreach ($this->identification as $paragraph) {
+            $array .= "<p>$paragraph</p>";
+        }
+        return $array;
     }
     function get_weight(){
-        $result = $this->weight;
-        return $result;
+        return $this->weight;
     }
     function get_length(){
-        $result = $this->length;
-        return $result;
+        return $this->length;
     }
     function get_lower_length(){
-        $result = $this->lower_length;
-        return $result;
+        return $this->lower_length;
     }
     function get_lower_weight(){
-        $result = $this->lower_weight;
-        return $result;
+        return $this->lower_weight;
     }  
     function get_classification(){
-        $result = $this->classification;
-        return $result;
+        return $this->classification;
     }
-    function get_image_220(){
-        $result = $this->image_220;
+    function get_image(){
+        return $this->image;
+    }
+    function get_maori_name_box(){
+        return $this->maori_name !="" ? "<li><span>Māori Name: </span> $this->maori_name</li>" : "";
+    }
+
+    function get_scientific_name_box(){
+        return "<li><span>Scientific Name: </span>$this->scientific_name</li>";
+    }
+    function get_weight_box(){
+        return "<li><span>Weight: </span>$this->weight</li>";
+    }
+    function get_length_box(){
+        return "<li><span>Length: </span>$this->length</li>";
+    }
+    function get_classification_box(){
+        return "<li><span>Classification: </span>$this->classification</li>";
+    }
+    function get_other_names_box(){
+        return "<li><span>Other Names: </span>$this->other_names</li>";
+    }
+    
+    function parse_months($string){
+        $array = explode(" ",  $string);
+        $row = "";
+        in_array("Jan", $array) ? $row.="<td class='active'>Jan</td>" : $row.="<td>Jan</td>";
+        in_array("Feb", $array) ? $row.="<td class='active'>Feb</td>" : $row.="<td>Feb</td>";
+        in_array("Mar", $array) ? $row.="<td class='active'>Mar</td>" : $row.="<td>Mar</td>";
+        in_array("Apr", $array) ? $row.="<td class='active'>Apr</td>" : $row.="<td>Apr</td>";
+        in_array("May", $array) ? $row.="<td class='active'>May</td>" : $row.="<td>May</td>";
+        in_array("Jun", $array) ? $row.="<td class='active'>Jun</td>" : $row.="<td>Jun</td>";
+        in_array("Jul", $array) ? $row.="<td class='active'>Jul</td>" : $row.="<td>Jul</td>";
+        in_array("Aug", $array) ? $row.="<td class='active'>Aug</td>" : $row.="<td>Aug</td>";
+        in_array("Sep", $array) ? $row.="<td class='active'>Sep</td>" : $row.="<td>Sep</td>";
+        in_array("Oct", $array) ? $row.="<td class='active'>Oct</td>" : $row.="<td>Oct</td>";
+        in_array("Nov", $array) ? $row.="<td class='active'>Nov</td>" : $row.="<td>Nov</td>";
+        in_array("Dec", $array) ? $row.="<td class='active'>Dec</td>" : $row.="<td>Dec</td>";
+        return $row;
+    }
+    
+    function get_breeding(){
+        return $this->parse_months($this->breeding);
+    }
+    function get_egg_laying(){
+        return $this->parse_months($this->egg_laying);
+    }
+    function get_icon_box(){
+        $classificaton_icon = "";
+        if($this->classification == 'Seabird'){
+            $classificaton_icon = "../assets/images/icons/seabird.svg";
+        }else if($this->classification == 'Land'){
+            $classificaton_icon = "../assets/images/icons/land.svg";
+        }else if($this->classification == 'Flightless'){
+            $classificaton_icon = "../assets/images/icons/flightless.svg";
+        }else if($this->classification == 'Wetland'){
+            $classificaton_icon = "../assets/images/icons/wetland.svg";
+        }
+
+        return "<div class='icon-layout'>
+                    <div class='icon-box'>
+                        <img src='../assets/images/icons/weight.svg' class='icon'/> 
+                        <span>$this->weight</span> 
+                    </div>
+                    <div class='icon-box'>
+                        <img src='../assets/images/icons/length.svg' class='icon'/> 
+                        <span>$this->length</span> 
+                    </div>
+                    <div class='icon-box'>
+                        <img src='$classificaton_icon' class='icon'/>
+                        <span>$this->classification</span>
+                    </div>
+                </div>";
+    }
+
+    function get_conservation_status_box(){
+        $result = $this->conservation_status;
+        if (
+            $this->conservation_status == "Coloniser" | 
+            $this->conservation_status == "Vagrant" |
+            $this->conservation_status == "Migrant" |
+            $this->conservation_status == "Introduced and Naturalised"){
+            $result = "<li><span>Conservation Status: </span><span class='consv-green'>$this->conservation_status</span></li>";
+        }
+
+        else if (
+            $this->conservation_status == "Not Threatend" | 
+            $this->conservation_status == "Declining" |
+            $this->conservation_status == "Recovering" |
+            $this->conservation_status == "Relict" |
+            $this->conservation_status == "Naturally Uncommon" ){
+            $result = "<li><span>Conservation Status: </span><span class='consv-orange'>$this->conservation_status</span></li>";
+        }
+
+        else if (
+            $this->conservation_status == "Nationally Critical" | 
+            $this->conservation_status == "Nationally Endangered" |
+            $this->conservation_status == "Nationally Vulnerable"){
+           $result = "<li><span>Conservation Status: </span><span class='consv-red'>$this->conservation_status</span></li>";
+        }
+
         return $result;
     }
 
