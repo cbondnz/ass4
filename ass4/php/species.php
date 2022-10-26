@@ -93,14 +93,14 @@ a bird off the end of the array -->
   <!-- page header -->
   <head>
     <!-- page meta data -->
-    <meta charset="utf-8" />
-    <meta name="description" content="<?php echo $english_name; echo $maori_name != "" ? " | $maori_name" : "" ;?>" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title><?php echo $english_name; echo $maori_name != "" ? " | $maori_name" : "" ;?></title>
+    <meta charset="utf-8">
+    <meta name="description" content="<?php echo $bird->get_english_name(); echo $bird->get_maori_name() != "" ? " | ".$bird->get_maori_name() : "" ;?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><?php echo $bird->get_english_name(); echo $bird->get_maori_name() != "" ? " | ".$bird->get_maori_name() : "" ;?></title>
     <!-- link to external CSS file-->
-    <link rel="stylesheet" href="../css/stylesheet.css" />
+    <link rel="stylesheet" href="../css/stylesheet.css">
     <!-- favicon -->
-    <link rel="shortcut icon" type="image/jpg" href="../assets/images/icons/favicon-32x32.png"/>
+    <link rel="shortcut icon" type="image/jpg" href="../assets/images/icons/favicon-32x32.png">
   </head>
   <!-- page body -->
   <body class="theme-light">
@@ -121,10 +121,10 @@ a bird off the end of the array -->
         <h2><?php echo $bird->get_english_name();?></h2>
 
         <!-- bird image and statistics section -->
-        <section id="img-stat">
+        <div id="img-stat">
           <!-- bird image -->
           <figure id="image">
-            <img src="<?php echo "../assets/images/birds/470_".$bird->get_image();?>" alt="<?php echo $bird->get_alt();?>" />
+            <img src="<?php echo "../assets/images/birds/470_".$bird->get_image();?>" alt="<?php echo $bird->get_alt();?>">
             <figcaption><?php echo $bird->get_alt();?></figcaption>
           </figure>
 
@@ -139,10 +139,10 @@ a bird off the end of the array -->
                 <?php echo $bird->get_classification_box();?> 
                 <?php echo $bird->get_other_names_box();?>       
             </ul>
-            <hr/>   
+            <hr>   
             <?php echo $bird->get_icon_box();?>               
           </aside>
-        </section>
+        </div>
 
         <!-- bird information section -->
         <section>
@@ -159,8 +159,8 @@ a bird off the end of the array -->
         <!-- breeding season table -->
         <section id="breeding">
           <h3>Breeding season</h3>
-          <div id="legend">
-            <input type="color" value="#a01d6b" disabled/>
+          <div class="legend">
+            <input type="color" value="#a01d6b" disabled>
             <label>= active</label>
           </div>
           <table>
@@ -173,8 +173,8 @@ a bird off the end of the array -->
         <!-- Egg laying season table -->
         <section id="egg_laying">
           <h3>Egg Laying season</h3>
-          <div id="legend">
-            <input type="color" value="#a01d6b" disabled/>
+          <div class="legend">
+            <input type="color" value="#a01d6b" disabled>
             <label>= active</label>
           </div>
           <table>
@@ -192,7 +192,7 @@ a bird off the end of the array -->
         $catalogue = "catalogue.php";
         $contact = "contact.php";
         include("./components/footer.php")?> 
+    <!-- link to external Javascript file-->
+    <script src="../js/main.js" ></script>
   </body>
 </html>
-<!-- link to external Javascript file-->
-<script src="../js/main.js" ></script>

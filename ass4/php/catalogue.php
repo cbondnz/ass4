@@ -124,19 +124,20 @@ if(file_exists('../xml/birds.xml')){
     $recent = json_decode($_COOKIE['recent'], true);
   }   
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
   <!-- page header -->
   <head>
     <!-- page meta data -->
-    <meta charset="utf-8" />
-    <meta name="description" content="New Zealand Native Bird Catalogue - Explore and learn about New Zealand native birds." />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <meta name="description" content="New Zealand Native Bird Catalogue - Explore and learn about New Zealand native birds.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>New Zealand Native Bird Catalogue - Explore and learn about New Zealand native birds.</title>
     <!-- link to external CSS file-->
-    <link rel="stylesheet" href="../css/stylesheet.css" />
+    <link rel="stylesheet" href="../css/stylesheet.css">
     <!-- favicon -->
-    <link rel="shortcut icon" type="image/jpg" href="../assets/images/icons/favicon-32x32.png"/>
+    <link rel="shortcut icon" type="image/jpg" href="../assets/images/icons/favicon-32x32.png">
   </head>
   <!-- page body -->
   <body class="theme-light">
@@ -157,7 +158,7 @@ if(file_exists('../xml/birds.xml')){
             <form method="GET" action="catalogue.php" id="search-form">
                 <div>
                     <input type="text" placeholder="Search for a bird by name..." name="search" value=<?php echo isset($_GET['search']) ? htmlspecialchars($_GET['search'], ENT_QUOTES) : ''; ?>>
-                    <input type="submit" value="Search" class="btn-search"/>
+                    <input type="submit" value="Search" class="btn-search">
                 </div>
                 <div>
                     <label>Sort:</label>
@@ -229,7 +230,7 @@ if(file_exists('../xml/birds.xml')){
         $catalogue = "catalogue.php";
         $contact = "contact.php";
         include("./components/footer.php")?>    
+    <!-- link to external Javascript file-->
+    <script src="../js/main.js"></script>
   </body>
 </html>
-<!-- link to external Javascript file-->
-<script src="../js/main.js" type="application/javascript"></script>

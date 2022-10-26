@@ -30,14 +30,14 @@ if(file_exists('./xml/birds.xml')){
   <!-- page header -->
   <head>
     <!-- page meta data -->
-    <meta charset="utf-8" />
-    <meta name="description" content="New Zealand Native Bird Catalogue - Explore and learn about New Zealand native birds." />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <meta name="description" content="New Zealand Native Bird Catalogue - Explore and learn about New Zealand native birds.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>New Zealand Native Bird Catalogue - Explore and learn about New Zealand native birds.</title>
     <!-- link to external CSS file-->
-    <link rel="stylesheet" href="./css/stylesheet.css" />
+    <link rel="stylesheet" href="./css/stylesheet.css">
     <!-- favicon -->
-    <link rel="shortcut icon" type="image/jpg" href="./assets/images/icons/favicon-32x32.png"/>
+    <link rel="shortcut icon" type="image/jpg" href="./assets/images/icons/favicon-32x32.png">
   </head>
   <!-- page body -->
   <body class="theme-light">
@@ -59,10 +59,10 @@ if(file_exists('./xml/birds.xml')){
                 <source src="./assets/video/video.mp4" type="video/mp4">
             </video>
             <div id="hero-text" class="content-wrap">
-                <h1>New Zealand <br/> Native Bird <br/> <span>Catalogue</span></h1>
+                <h1>New Zealand <br> Native Bird <br> <span>Catalogue</span></h1>
                 <p>Explore and learn about the native birds of New Zealand.</p>
                 <form action="./php/catalogue.php" method="POST">
-                    <input id="btn-catalogue" value="Go to Catalogue" type="submit"/>
+                    <input id="btn-catalogue" value="Go to Catalogue" type="submit">
                 </form>                
             </div>
             <!-- scroll down alert on the left of the screen -->
@@ -76,7 +76,7 @@ if(file_exists('./xml/birds.xml')){
             </div>
         </section> 
         <!-- Section for the different bird categories -->
-        <section id="categories">
+        <div id="categories">
             <div class="content-wrap"> 
                 <!-- Recently viewed birds -->
                 <section class="category">                
@@ -233,7 +233,7 @@ if(file_exists('./xml/birds.xml')){
                     </div>
                 </section>
             </div>            
-        </section>  
+        </div>  
     </main>
     <!-- Footer -->
     <?php 
@@ -241,8 +241,8 @@ if(file_exists('./xml/birds.xml')){
         $home = "index.php";
         $catalogue = "./php/catalogue.php";
         $contact = "./php/contact.php";
-        include("./php/components/footer.php")?>       
+        include("./php/components/footer.php")?>      
+    <!-- link to external Javascript file-->
+    <script src="./js/main.js"></script> 
   </body>
 </html>
-<!-- link to external Javascript file-->
-<script src="./js/main.js" ></script>

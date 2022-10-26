@@ -3,7 +3,7 @@
   <div class="content-wrap">
     <!-- Website logo -->
     <a href="<?php echo $logo_href?>">
-      <img src="<?php echo $logo_src?>" alt="NZ Native Birds Catalogue Logo"/>
+      <img src="<?php echo $logo_src?>" alt="NZ Native Birds Catalogue Logo">
     </a>  
     <!-- Main navigation -->
     <nav>

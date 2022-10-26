@@ -198,15 +198,15 @@ class Bird {
 
         return "<div class='icon-layout'>
                     <div class='icon-box'>
-                        <img src='../assets/images/icons/weight.svg' class='icon'/> 
+                        <img src='../assets/images/icons/weight.svg' class='icon' alt='picture of a weight'> 
                         <span>$this->weight</span> 
                     </div>
                     <div class='icon-box'>
-                        <img src='../assets/images/icons/length.svg' class='icon'/> 
+                        <img src='../assets/images/icons/length.svg' class='icon' alt='picture of a pencil and ruler'> 
                         <span>$this->length</span> 
                     </div>
                     <div class='icon-box'>
-                        <img src='$classificaton_icon' class='icon'/>
+                        <img src='$classificaton_icon' class='icon' alt='picture that represents the classification of a bird'>
                         <span>$this->classification</span>
                     </div>
                 </div>";
@@ -229,7 +229,7 @@ class Bird {
         }
 
         else if (
-            $this->conservation_status == "Not Threatend" | 
+            $this->conservation_status == "Not Threatened" | 
             $this->conservation_status == "Declining" |
             $this->conservation_status == "Recovering" |
             $this->conservation_status == "Relict" |

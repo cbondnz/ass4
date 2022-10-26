@@ -12,27 +12,27 @@
                 <div>
                     <h1>Menus</h1>
                     <ul>
-                        <a href="<?php echo $home?>">
-                            <li>Home</li>
-                        </a>
-                        <a href="<?php echo $catalogue?>">
-                            <li>Catalogue</li>
-                        </a>
+                        <li>
+                            <a href="<?php echo $home?>">Home</a>
+                        </li>
+                        <li>
+                            <a href="<?php echo $catalogue?>">Catalogue</a>
+                        </li>                        
                     </ul>
                 </div>
                 <!-- Website logo and  tagline for the webiste -->
                 <div>
-                    <img src="<?php echo $src?>" alt="NZ Native Birds Catalogue Logo"/>
-                    <p>Explore and learn about the <br/> native birds of New Zealand.</p>
+                    <img src="<?php echo $src?>" alt="NZ Native Birds Catalogue Logo">
+                    <p>Explore and learn about the <br> native birds of New Zealand.</p>
                 </div>
             </div>
         </section>
 
         <!-- additional content -->
-        <section id="footer-sub">
+        <div id="footer-sub">
             <div class="content-wrap">
                 <cite>Video by Kelly: <a href="https://www.pexels.com/video/plants-clinging-by-the-tree-branches-in-a-forest-2882118/" target="_blank">https://www.pexels.com/video/plants-clinging-by-the-tree-branches-in-a-forest-2882118/</a></cite>
                 <cite>All content for this website has been sourced from <a href="https://nzbirdsonline.org.nz/" target="_blank">https://nzbirdsonline.org.nz/</a></cite>
             </div>            
-        </section>  
+        </div>  
 </footer>

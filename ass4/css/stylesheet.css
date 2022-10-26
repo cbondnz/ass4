@@ -72,7 +72,7 @@ figure {
   margin-right: auto;
 }
 
-/* hero banner background video adapted from https://youtu.be/Nb1Kjm4oXQI */
+/* hero banner styling adapted from https://youtu.be/Nb1Kjm4oXQI*/
 .hero {
   height: 100vh;
   display: flex;
@@ -115,6 +115,7 @@ figure {
   text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
 }
 
+/* hero button */
 #btn-catalogue {
   position: relative;
   background-color: var(--color-bg-dark-green);
@@ -135,7 +136,7 @@ figure {
   background-color: var(--color-bg-dark-green-hover);
 }
 
-/* home categories styling */
+/* home categories section styling */
 #categories {
   background: var(--color-bg-black);
   color: white;
@@ -146,6 +147,11 @@ figure {
   padding-bottom: 30px;
   display: flex;
   align-items: flex-start;
+}
+
+.scrollable {
+  white-space: nowrap;
+  overflow-x: scroll;
 }
 
 .scrollable::-webkit-scrollbar {
@@ -173,16 +179,11 @@ figure {
   margin-right: 10px;
 }
 
-.scrollable {
-  white-space: nowrap;
-  overflow-x: scroll;
-}
-
 .category {
   margin-bottom: 50px;
 }
 
-/* bird.php styling for the bird view */
+/* styling for the bird image and name component (bird.php) */
 .bird {
   display: inline-block;
 }
@@ -202,7 +203,7 @@ figure {
   cursor: pointer;
 }
 
-/* header styling */
+/* header navigation bar styling */
 #header {
   z-index: 20;
   position: relative;
@@ -271,7 +272,7 @@ a {
   text-decoration-thickness: 6px;
 }
 
-/* catalogue styling */
+/* catalogue page styling */
 #catalogue {
   min-height: 100vh;
   background: url("../assets/images/backgrounds/bg.svg") bottom no-repeat, linear-gradient(180deg, var(--color-bg-accent-dark) 0%, var(--color-bg-accent-light) 15rem, var(--color-bg-accent-light) 100%);
@@ -359,7 +360,7 @@ a {
   justify-content: space-between;
 }
 
-/* footer styling */
+/* footer bar styling */
 #footer-main {
   padding-top: 50px;
   height: 200px;
@@ -442,7 +443,7 @@ footer .content-wrap {
   justify-content: space-between;
 }
 
-/* bird card styles */
+/* bird card styling on the catalogue page */
 /* https://stackoverflow.com/questions/3922739/limit-text-length-to-n-lines-using-css*/
 .information {
   overflow: hidden;
@@ -616,7 +617,7 @@ td.active {
   margin-bottom: 1em;
 }
 
-#legend {
+.legend {
   margin-bottom: 10px;
 }
 
